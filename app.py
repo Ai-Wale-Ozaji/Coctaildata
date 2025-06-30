@@ -2,277 +2,237 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
 import plotly.express as px
+import seaborn as sns
 
-# ---- LOAD DATA ----
+st.set_page_config(page_title="Cocktailx HR Dashboard", layout="wide")
+
 @st.cache_data
 def load_data():
-    df = pd.read_csv('EA.csv')
+    df = pd.read_csv('cocktailx_cleaned_data_with_insights.csv')
     return df
 
 df = load_data()
 
-# ---- SIDEBAR FILTERS ----
-st.sidebar.header("Filter Employees")
-attrition_options = df['Attrition'].unique()
-selected_attrition = st.sidebar.multiselect("Attrition", attrition_options, default=list(attrition_options))
+# SIDEBAR FILTERS
+st.sidebar.header("Filters")
+customer_segments = df["Customer_Segment"].unique()
+segment_choice = st.sidebar.multiselect(
+    "Select Customer Segment (Generation):",
+    options=customer_segments,
+    default=customer_segments
+)
+st.sidebar.markdown("---")
+num_cols = df.select_dtypes(include=[np.number]).columns.tolist()
+cat_cols = df.select_dtypes(exclude=[np.number]).columns.tolist()
 
-age_min, age_max = int(df['Age'].min()), int(df['Age'].max())
-age_range = st.sidebar.slider("Age Range", min_value=age_min, max_value=age_max, value=(age_min, age_max))
+# FILTER DATA
+filtered_df = df[df["Customer_Segment"].isin(segment_choice)]
 
-genders = df['Gender'].unique()
-selected_gender = st.sidebar.multiselect("Gender", genders, default=list(genders))
-
-departments = df['Department'].unique()
-selected_department = st.sidebar.multiselect("Department", departments, default=list(departments))
-
-filtered_df = df[
-    (df['Attrition'].isin(selected_attrition)) &
-    (df['Age'] >= age_range[0]) & (df['Age'] <= age_range[1]) &
-    (df['Gender'].isin(selected_gender)) &
-    (df['Department'].isin(selected_department))
-]
-
-# ---- MAIN TITLE ----
-st.title("HR Dashboard: Employee Attrition Analysis")
+# MAIN TITLE
+st.title("🍹 Cocktailx Customer Insights Dashboard")
 st.markdown("""
-This dashboard provides a comprehensive overview of employee attrition for HR stakeholders.
-Use the interactive filters in the sidebar to explore trends, patterns, and drivers of attrition.
-Each section has explanations to guide your interpretation.
+This dashboard provides HR & stakeholder-focused insights from the Cocktailx dataset, with segment-level and deep-dive analytics. Use the filters on the left to customize your view.
 """)
 
-# ---- TABS ----
-tabs = st.tabs([
-    "Overview", "Attrition Breakdown", "Demographics", "Job Satisfaction", "Compensation", 
-    "Performance", "Other Factors", "Correlation Matrix", "Prediction (ML)", "Raw Data"
+# TABS FOR MACRO & MICRO ANALYSIS
+tab1, tab2, tab3, tab4 = st.tabs([
+    "1️⃣ Macro Trends",
+    "2️⃣ Segment Deep-Dive",
+    "3️⃣ Feature Relationships",
+    "4️⃣ Raw Data & Download"
 ])
 
-# ---- 1. OVERVIEW TAB ----
-with tabs[0]:
-    st.header("Executive Overview")
-    st.markdown("#### Key Metrics")
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        st.metric("Total Employees", len(filtered_df))
-    with col2:
-        st.metric("Attrition Rate (%)", round(100 * (filtered_df['Attrition'] == 'Yes').sum() / len(filtered_df), 1) if len(filtered_df) else 0)
-    with col3:
-        st.metric("Avg. Monthly Income", int(filtered_df['MonthlyIncome'].mean()))
+### 1. MACRO TRENDS
+with tab1:
+    st.header("Macro Overview of Customer Segments")
+    st.markdown("**Understand the big picture: How is our customer base distributed by generation and across other major metrics?**")
 
-    st.markdown("""
-    **This section shows a snapshot of your workforce based on filters applied.  
-    Attrition rate is a key metric for HR to monitor and reduce employee churn.**
-    """)
-
-    # Pie chart: Attrition
-    fig1 = px.pie(filtered_df, names='Attrition', title='Attrition Distribution')
+    # 1. Pie chart: Customer Segment Distribution
+    st.markdown("**1. Customer Segment Distribution**  
+    A pie chart showing what proportion of customers are from each generation.")
+    fig1 = px.pie(filtered_df, names='Customer_Segment', title='Customer Segment Breakdown')
     st.plotly_chart(fig1, use_container_width=True)
 
-# ---- 2. ATTRITION BREAKDOWN ----
-with tabs[1]:
-    st.header("Attrition Breakdown by Categories")
-    st.markdown("**Explore how attrition varies across different features.**")
+    # 2. Bar chart: Count by Segment
+    st.markdown("**2. Customer Count by Generation**  
+    Visualizes the number of customers in each segment for size comparison.")
+    fig2 = px.bar(filtered_df["Customer_Segment"].value_counts().reset_index(),
+                  x="index", y="Customer_Segment",
+                  labels={"index": "Generation", "Customer_Segment": "Number of Customers"},
+                  color="index")
+    st.plotly_chart(fig2, use_container_width=True)
 
-    # Bar: Attrition by Department
-    st.markdown("*Attrition by Department helps spot areas with high turnover.*")
-    attr_dept = pd.crosstab(filtered_df['Department'], filtered_df['Attrition'])
-    st.bar_chart(attr_dept)
+    # 3. Gender Distribution
+    st.markdown("**3. Gender Proportion by Segment**  
+    Examines gender balance within each generation.")
+    fig3 = px.histogram(filtered_df, x="Customer_Segment", color="Gender", barmode="group")
+    st.plotly_chart(fig3, use_container_width=True)
 
-    # Bar: Attrition by JobRole
-    st.markdown("*Attrition by Job Role highlights critical roles with high exits.*")
-    attr_role = pd.crosstab(filtered_df['JobRole'], filtered_df['Attrition'])
-    st.bar_chart(attr_role)
+    # 4. Heatmap: Segment vs. Another Categorical (e.g., Occupation)
+    if "Occupation" in cat_cols:
+        st.markdown("**4. Segment vs. Occupation Heatmap**  
+        Reveals which jobs are common in each segment.")
+        seg_occ = pd.crosstab(filtered_df["Customer_Segment"], filtered_df["Occupation"])
+        fig4, ax = plt.subplots(figsize=(12, 4))
+        sns.heatmap(seg_occ, annot=True, fmt='d', cmap="Blues", ax=ax)
+        st.pyplot(fig4)
 
-    # Bar: Attrition by Gender
-    st.markdown("*Is there a gender difference in attrition?*")
-    attr_gender = pd.crosstab(filtered_df['Gender'], filtered_df['Attrition'])
-    st.bar_chart(attr_gender)
+### 2. SEGMENT DEEP-DIVE
+with tab2:
+    st.header("Segment-Level Deep Dives")
+    st.markdown("**Analyze each generation’s profile in detail, including spending, preferences, and demographics.**")
 
-    # Bar: Attrition by EducationField
-    st.markdown("*Certain education backgrounds may have higher attrition.*")
-    attr_edu = pd.crosstab(filtered_df['EducationField'], filtered_df['Attrition'])
-    st.bar_chart(attr_edu)
+    # 5. Select segment for detail
+    seg = st.selectbox("Pick a Generation to Deep-Dive:", customer_segments)
+    seg_df = filtered_df[filtered_df["Customer_Segment"] == seg]
 
-# ---- 3. DEMOGRAPHICS ----
-with tabs[2]:
-    st.header("Demographics")
-    st.markdown("**Demographic analysis helps in understanding the profile of employees at risk.**")
+    # 5. Histogram: Age Distribution
+    if "Age" in num_cols:
+        st.markdown(f"**5. Age Distribution for {seg}**  
+        See the age spread within this segment.")
+        fig5 = px.histogram(seg_df, x="Age", nbins=15, title=f'Age Distribution - {seg}')
+        st.plotly_chart(fig5, use_container_width=True)
 
-    # Histogram: Age Distribution
-    st.markdown("*Distribution of ages in the current view.*")
-    fig, ax = plt.subplots()
-    sns.histplot(filtered_df['Age'], bins=20, kde=True, ax=ax)
-    st.pyplot(fig)
+    # 6. Boxplot: Income or Spend by Gender
+    for col in ["Income", "Spend", "Annual_Spend"]:
+        if col in num_cols:
+            st.markdown(f"**6. {col} by Gender in {seg}**  
+            Are there income/spending differences by gender in this segment?")
+            fig6 = px.box(seg_df, x="Gender", y=col, color="Gender", points="all")
+            st.plotly_chart(fig6, use_container_width=True)
 
-    # Boxplot: Age vs. Attrition
-    st.markdown("*Age variation by attrition status.*")
-    fig, ax = plt.subplots()
-    sns.boxplot(x='Attrition', y='Age', data=filtered_df, ax=ax)
-    st.pyplot(fig)
+    # 7. Top 10 Occupations (if available)
+    if "Occupation" in cat_cols:
+        st.markdown(f"**7. Top Occupations in {seg}**  
+        Shows which occupations are most common.")
+        top_jobs = seg_df["Occupation"].value_counts().nlargest(10)
+        fig7 = px.bar(top_jobs, x=top_jobs.index, y=top_jobs.values,
+                      labels={"x": "Occupation", "y": "Count"})
+        st.plotly_chart(fig7, use_container_width=True)
 
-    # Countplot: Gender vs. Attrition
-    st.markdown("*Gender split among those who left vs. stayed.*")
-    fig, ax = plt.subplots()
-    sns.countplot(x='Gender', hue='Attrition', data=filtered_df, ax=ax)
-    st.pyplot(fig)
+    # 8. Average Spend/Income Table
+    st.markdown(f"**8. Average Metrics in {seg}**  
+    Key average statistics for this segment.")
+    st.dataframe(seg_df[num_cols].mean().to_frame("Mean Value"))
 
-    # Bar: Marital Status
-    st.markdown("*Marital status and its impact on attrition.*")
-    marital_attr = pd.crosstab(filtered_df['MaritalStatus'], filtered_df['Attrition'])
-    st.bar_chart(marital_attr)
+### 3. FEATURE RELATIONSHIPS
+with tab3:
+    st.header("Feature Relationships & Patterns")
+    st.markdown("**Uncover how different variables relate, including correlations and advanced visualizations.**")
 
-# ---- 4. JOB SATISFACTION ----
-with tabs[3]:
-    st.header("Job Satisfaction & Environment")
-    st.markdown("**Job satisfaction and work-life balance are major drivers of retention.**")
+    # 9. Correlation Heatmap (Numerical columns)
+    st.markdown("**9. Correlation Matrix (Numerical Features)**  
+    See which features move together or have strong relationships.")
+    fig9, ax = plt.subplots(figsize=(10, 6))
+    sns.heatmap(filtered_df[num_cols].corr(), annot=True, cmap="coolwarm", ax=ax)
+    st.pyplot(fig9)
 
-    # Box: JobSatisfaction vs. Attrition
-    st.markdown("*Higher job satisfaction typically means lower attrition.*")
-    fig, ax = plt.subplots()
-    sns.boxplot(x='Attrition', y='JobSatisfaction', data=filtered_df, ax=ax)
-    st.pyplot(fig)
+    # 10. Pairplot
+    st.markdown("**10. Pairplot (Scatter Matrix)**  
+    Visualizes pairwise relationships between top variables.")
+    selected = st.multiselect("Choose up to 4 features to pairplot:", num_cols, default=num_cols[:2])
+    if len(selected) > 1 and len(selected) <= 4:
+        pairplot_fig = sns.pairplot(filtered_df[selected])
+        st.pyplot(pairplot_fig.figure)
 
-    # Bar: WorkLifeBalance
-    st.markdown("*Work-life balance rating by attrition status.*")
-    wl_balance = pd.crosstab(filtered_df['WorkLifeBalance'], filtered_df['Attrition'])
-    st.bar_chart(wl_balance)
+    # 11. Scatterplot with Filters
+    st.markdown("**11. Interactive Scatterplot**  
+    Compare any two numeric variables, colored by generation.")
+    col_x = st.selectbox("X-Axis:", num_cols, index=0)
+    col_y = st.selectbox("Y-Axis:", num_cols, index=1)
+    fig11 = px.scatter(filtered_df, x=col_x, y=col_y, color="Customer_Segment")
+    st.plotly_chart(fig11, use_container_width=True)
 
-    # Bar: EnvironmentSatisfaction
-    st.markdown("*Does satisfaction with work environment impact attrition?*")
-    env_sat = pd.crosstab(filtered_df['EnvironmentSatisfaction'], filtered_df['Attrition'])
-    st.bar_chart(env_sat)
+    # 12. Categorical Count (e.g., Marital Status, if present)
+    for cat in ["Marital_Status", "Location", "Channel"]:
+        if cat in cat_cols:
+            st.markdown(f"**12. Distribution by {cat}**  
+            How are generations distributed by {cat}?")
+            fig12 = px.histogram(filtered_df, x="Customer_Segment", color=cat, barmode="group")
+            st.plotly_chart(fig12, use_container_width=True)
 
-# ---- 5. COMPENSATION ----
-with tabs[4]:
-    st.header("Compensation & Benefits")
-    st.markdown("**Pay and benefits are key motivators. Analyze their effect on attrition.**")
+    # 13. KPI Cards
+    st.markdown("**13. Key Metrics at a Glance**  
+    Instant view of most important figures.")
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.metric("Total Customers", len(filtered_df))
+    with col2:
+        if "Annual_Spend" in num_cols:
+            st.metric("Avg Annual Spend", f"{filtered_df['Annual_Spend'].mean():,.2f}")
+    with col3:
+        if "Income" in num_cols:
+            st.metric("Avg Income", f"{filtered_df['Income'].mean():,.2f}")
 
-    # Box: MonthlyIncome vs. Attrition
-    st.markdown("*Are those leaving paid less?*")
-    fig, ax = plt.subplots()
-    sns.boxplot(x='Attrition', y='MonthlyIncome', data=filtered_df, ax=ax)
-    st.pyplot(fig)
+    # 14. Sunburst or Treemap: Hierarchical View
+    if "Location" in cat_cols and "Gender" in cat_cols:
+        st.markdown("**14. Hierarchical View: Segment > Location > Gender**  
+        Shows distribution across key categories.")
+        fig14 = px.sunburst(filtered_df, path=['Customer_Segment', 'Location', 'Gender'])
+        st.plotly_chart(fig14, use_container_width=True)
 
-    # Box: PercentSalaryHike vs. Attrition
-    st.markdown("*Salary hikes and attrition.*")
-    fig, ax = plt.subplots()
-    sns.boxplot(x='Attrition', y='PercentSalaryHike', data=filtered_df, ax=ax)
-    st.pyplot(fig)
+    # 15. Time Trend (if 'Year' or 'Date' column exists)
+    for time_col in ["Year", "Join_Year", "Date", "Signup_Date"]:
+        if time_col in df.columns:
+            st.markdown(f"**15. Customers Over Time**  
+            See how customer acquisition or metrics changed by year.")
+            fig15 = px.line(filtered_df, x=time_col, y='Customer_Segment', color='Customer_Segment')
+            st.plotly_chart(fig15, use_container_width=True)
+            break
 
-    # Box: TotalWorkingYears vs. Attrition
-    st.markdown("*Does tenure affect attrition?*")
-    fig, ax = plt.subplots()
-    sns.boxplot(x='Attrition', y='TotalWorkingYears', data=filtered_df, ax=ax)
-    st.pyplot(fig)
-
-# ---- 6. PERFORMANCE ----
-with tabs[5]:
-    st.header("Performance & Promotion")
-    st.markdown("**Performance management and growth opportunities affect employee retention.**")
-
-    # Bar: PerformanceRating
-    st.markdown("*Performance ratings of those who left vs. stayed.*")
-    perf_rating = pd.crosstab(filtered_df['PerformanceRating'], filtered_df['Attrition'])
-    st.bar_chart(perf_rating)
-
-    # Bar: TrainingTimesLastYear
-    st.markdown("*Training and learning opportunities and attrition.*")
-    train_attr = pd.crosstab(filtered_df['TrainingTimesLastYear'], filtered_df['Attrition'])
-    st.bar_chart(train_attr)
-
-    # Box: YearsSinceLastPromotion vs. Attrition
-    st.markdown("*Promotion delays may lead to higher attrition.*")
-    fig, ax = plt.subplots()
-    sns.boxplot(x='Attrition', y='YearsSinceLastPromotion', data=filtered_df, ax=ax)
-    st.pyplot(fig)
-
-    # Box: YearsWithCurrManager vs. Attrition
-    st.markdown("*Impact of current manager tenure.*")
-    fig, ax = plt.subplots()
-    sns.boxplot(x='Attrition', y='YearsWithCurrManager', data=filtered_df, ax=ax)
-    st.pyplot(fig)
-
-# ---- 7. OTHER FACTORS ----
-with tabs[6]:
-    st.header("Other Factors")
-    st.markdown("**Explore additional variables impacting attrition.**")
-
-    # Bar: Overtime
-    st.markdown("*Do employees doing overtime leave more often?*")
-    overtime_attr = pd.crosstab(filtered_df['OverTime'], filtered_df['Attrition'])
-    st.bar_chart(overtime_attr)
-
-    # Bar: BusinessTravel
-    st.markdown("*Frequent travel may affect retention.*")
-    travel_attr = pd.crosstab(filtered_df['BusinessTravel'], filtered_df['Attrition'])
-    st.bar_chart(travel_attr)
-
-    # Box: DistanceFromHome vs. Attrition
-    st.markdown("*Does distance from home correlate with attrition?*")
-    fig, ax = plt.subplots()
-    sns.boxplot(x='Attrition', y='DistanceFromHome', data=filtered_df, ax=ax)
-    st.pyplot(fig)
-
-# ---- 8. CORRELATION MATRIX ----
-with tabs[7]:
-    st.header("Correlation Matrix")
-    st.markdown("**See which features are most correlated with attrition.**")
-
-    # Encode Attrition for corr
-    df_corr = filtered_df.copy()
-    df_corr['Attrition_num'] = df_corr['Attrition'].map({'Yes': 1, 'No': 0})
-
-    corr = df_corr.select_dtypes(include=[np.number]).corr()
-    fig, ax = plt.subplots(figsize=(12,8))
-    sns.heatmap(corr, annot=True, fmt=".2f", cmap="coolwarm", ax=ax)
-    st.pyplot(fig)
-
-    st.markdown("*This matrix helps in identifying potential drivers for predictive modeling.*")
-
-# ---- 9. PREDICTION (ML) ----
-with tabs[8]:
-    st.header("Attrition Prediction (Prototype)")
-    st.markdown("""
-    **Test a simple machine learning model (Logistic Regression) to predict attrition using selected features.  
-    This helps HR teams identify at-risk employees for proactive intervention.**
-    """)
-    # Simple prototype
-    from sklearn.model_selection import train_test_split
-    from sklearn.linear_model import LogisticRegression
-    from sklearn.metrics import classification_report, confusion_matrix
-
-    feature_cols = ['Age', 'MonthlyIncome', 'TotalWorkingYears', 'YearsAtCompany', 'JobSatisfaction']
-    X = filtered_df[feature_cols].fillna(0)
-    y = filtered_df['Attrition'].map({'Yes': 1, 'No': 0})
-
-    if len(filtered_df) > 50 and y.nunique() > 1:
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, stratify=y, random_state=42)
-        clf = LogisticRegression()
-        clf.fit(X_train, y_train)
-        y_pred = clf.predict(X_test)
-        st.markdown("**Classification Report:**")
-        st.text(classification_report(y_test, y_pred))
-
-        # Confusion matrix
-        fig, ax = plt.subplots()
-        cm = confusion_matrix(y_test, y_pred)
-        sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', ax=ax)
-        ax.set_xlabel('Predicted')
-        ax.set_ylabel('Actual')
-        st.pyplot(fig)
-    else:
-        st.warning("Not enough data for model demo. Adjust filters or upload more data.")
-
-# ---- 10. RAW DATA ----
-with tabs[9]:
-    st.header("Raw Data View")
-    st.markdown("**Full employee dataset for custom exploration.**")
+### 4. RAW DATA & DOWNLOAD
+with tab4:
+    st.header("Raw Data & Export")
+    st.markdown("**Explore the data directly or download for offline analysis.**")
     st.dataframe(filtered_df)
+    csv = filtered_df.to_csv(index=False).encode('utf-8')
+    st.download_button("Download Filtered Data as CSV", csv, "filtered_cocktailx.csv", "text/csv")
 
-# ---- FOOTER ----
+# --- ADDITIONAL VISUALS (16-20+) ---
+st.markdown("---")
+st.subheader("More Insights")
+
+# 16. Violin Plot: Distribution of Spend by Segment
+if "Spend" in num_cols:
+    st.markdown("**16. Spend Distribution by Generation**  
+    See variability and outliers for spend per segment.")
+    fig16 = px.violin(filtered_df, y="Spend", x="Customer_Segment", box=True, points="all")
+    st.plotly_chart(fig16, use_container_width=True)
+
+# 17. Histogram: Any Numeric Feature
+feature = st.selectbox("Pick a numeric feature to histogram:", num_cols)
+st.markdown("**17. Custom Histogram**  
+Shows the distribution of your selected feature.")
+fig17 = px.histogram(filtered_df, x=feature, color="Customer_Segment", nbins=20)
+st.plotly_chart(fig17, use_container_width=True)
+
+# 18. Parallel Categories (if multiple categoricals)
+if len(cat_cols) >= 3:
+    st.markdown("**18. Parallel Categories Plot**  
+    Visualizes how different categorical features interact.")
+    fig18 = px.parallel_categories(filtered_df, dimensions=cat_cols[:3])
+    st.plotly_chart(fig18, use_container_width=True)
+
+# 19. Grouped Bar: Avg Spend/Income by Segment & Gender
+for col in ["Spend", "Income"]:
+    if col in num_cols and "Gender" in cat_cols:
+        st.markdown(f"**19. Avg {col} by Segment & Gender**  
+        Compares financial metrics across groups.")
+        fig19 = px.bar(filtered_df, x="Customer_Segment", y=col, color="Gender", barmode="group")
+        st.plotly_chart(fig19, use_container_width=True)
+
+# 20. Donut Chart: Custom Proportion
+if "Loyalty_Level" in cat_cols:
+    st.markdown("**20. Loyalty Levels by Generation**  
+    Shows customer loyalty breakdown per segment.")
+    fig20 = px.pie(filtered_df, names='Loyalty_Level', hole=0.4, color='Customer_Segment')
+    st.plotly_chart(fig20, use_container_width=True)
+
+# --- End of Dashboard ---
+
 st.markdown("""
 ---
-*Dashboard created for HR analytics. For questions, contact your data analytics team.*
+*Dashboard built by [Your Name].  
+Need help or improvements? Raise an issue on GitHub!*
 """)
-
