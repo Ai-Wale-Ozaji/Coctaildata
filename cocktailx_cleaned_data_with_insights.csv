@@ -1,0 +1,1001 @@
+Customer_ID,Age,Gender,Location,Channel,Marketing_Exposure,Flavor,Pack_Size,Price_Per_Unit,Order_Date,Units_Purchased,Total_Bill_Value,Discount_Used,Customer_Rating,Repeat_Purchase,Time_to_Reorder,Month,Promotion_Campaign,Avg_Order_Value,Customer_Segment
+C0001,27,Male,Chennai,Retail,Social Media,Margarita,4-Pack,350,26-04-2025,4,1400,No,3,No,0,Apr,Yes,350,Millennial
+C0002,28,Female,Chennai,Retail,Social Media,Whisky Sour,12-Pack,400,18-02-2025,12,4800,Yes,3,Yes,0,Feb,No,400,Millennial
+C0003,32,Female,Kolkata,Online,Email,Long Island,Single,250,16-01-2025,1,250,Yes,5,Yes,0,Jan,Yes,250,Millennial
+C0004,43,Female,Ahmedabad,Retail,Social Media,Margarita,12-Pack,400,20-03-2025,12,4800,No,3,No,0,Mar,No,400,Gen X
+C0005,29,Male,Chennai,Online,Social Media,Margarita,Single,250,27-05-2025,1,250,No,4,No,0,May,Yes,250,Millennial
+C0006,37,Female,Ahmedabad,Online,Email,Cosmopolitan,Single,250,26-03-2025,1,250,No,4,Yes,0,Mar,No,250,Gen X
+C0007,30,Male,Chennai,Retail,Email,Gin Fizz,12-Pack,400,04-05-2025,12,4800,Yes,3,No,0,May,Yes,400,Millennial
+C0008,38,Female,Pune,Online,Email,Rum Punch,12-Pack,400,07-02-2025,12,4800,Yes,4,Yes,13,Feb,No,400,Gen X
+C0009,32,Male,Ahmedabad,Online,Social Media,Whisky Sour,Single,250,31-01-2025,1,250,No,5,No,0,Jan,No,250,Millennial
+C0010,29,Female,Delhi,Retail,None,Mojito,4-Pack,350,30-12-2024,4,1400,No,4,No,0,Dec,No,350,Millennial
+C0011,42,Female,Chennai,Retail,Social Media,Rum Punch,Single,250,31-12-2024,1,250,No,5,Yes,20,Dec,Yes,250,Gen X
+C0012,35,Female,Delhi,Online,Social Media,Mojito,Single,250,24-06-2025,1,250,Yes,4,Yes,0,Jun,Yes,250,Millennial
+C0013,27,Female,Ahmedabad,Online,Email,Rum Punch,Single,250,03-03-2025,1,250,Yes,4,Yes,0,Mar,No,250,Millennial
+C0014,41,Female,Mumbai,Retail,None,Cosmopolitan,Single,250,11-04-2025,1,250,No,4,No,0,Apr,No,250,Gen X
+C0015,27,Male,Kolkata,Retail,Social Media,Margarita,4-Pack,350,24-02-2025,4,1400,No,4,Yes,0,Feb,Yes,350,Millennial
+C0016,39,Male,Bangalore,Online,Social Media,Long Island,Single,250,11-06-2025,1,250,Yes,4,Yes,0,Jun,No,250,Gen X
+C0017,27,Female,Kolkata,Online,Social Media,Gin Fizz,Single,250,12-02-2025,1,250,Yes,4,Yes,28,Feb,Yes,250,Millennial
+C0018,21,Female,Mumbai,Retail,Email,Margarita,4-Pack,350,21-03-2025,4,1400,No,4,Yes,30,Mar,Yes,350,Gen Z
+C0019,26,Female,Chennai,Online,Email,Mojito,4-Pack,350,13-01-2025,4,1400,Yes,5,Yes,0,Jan,Yes,350,Millennial
+C0020,40,Female,Mumbai,Online,Social Media,Cosmopolitan,4-Pack,350,19-04-2025,4,1400,Yes,3,No,0,Apr,Yes,350,Gen X
+C0021,27,Male,Ahmedabad,Retail,Social Media,Long Island,Single,250,09-05-2025,1,250,Yes,5,No,0,May,Yes,250,Millennial
+C0022,36,Male,Hyderabad,Retail,Email,Mojito,4-Pack,350,08-05-2025,4,1400,Yes,5,No,0,May,No,350,Gen X
+C0023,29,Female,Kolkata,Online,Email,Rum Punch,12-Pack,400,20-01-2025,24,9600,No,5,No,0,Jan,No,400,Millennial
+C0024,24,Male,Chennai,Retail,Email,Gin Fizz,Single,250,04-02-2025,1,250,Yes,4,Yes,0,Feb,No,250,Gen Z
+C0025,23,Male,Mumbai,Retail,Social Media,Mojito,4-Pack,350,31-12-2024,4,1400,Yes,5,No,0,Dec,No,350,Gen Z
+C0026,37,Female,Pune,Online,Email,Rum Punch,4-Pack,350,28-03-2025,4,1400,Yes,4,No,0,Mar,No,350,Gen X
+C0027,28,Female,Kolkata,Retail,Email,Long Island,4-Pack,350,27-05-2025,4,1400,No,3,No,0,May,Yes,350,Millennial
+C0028,23,Male,Pune,Retail,Social Media,Rum Punch,12-Pack,400,15-03-2025,12,4800,Yes,5,No,0,Mar,No,400,Gen Z
+C0029,37,Female,Ahmedabad,Online,Email,Cosmopolitan,12-Pack,400,22-01-2025,12,4800,Yes,3,Yes,0,Jan,Yes,400,Gen X
+C0030,30,Female,Kolkata,Retail,Email,Long Island,4-Pack,350,14-06-2025,4,1400,No,5,Yes,0,Jun,Yes,350,Millennial
+C0031,28,Male,Ahmedabad,Retail,Email,Whisky Sour,Single,250,04-04-2025,1,250,Yes,5,No,0,Apr,No,250,Millennial
+C0032,33,Female,Hyderabad,Online,Social Media,Margarita,4-Pack,350,19-03-2025,4,1400,Yes,4,Yes,25,Mar,Yes,350,Millennial
+C0033,22,Female,Ahmedabad,Online,Email,Cosmopolitan,Single,250,21-04-2025,1,250,No,4,Yes,28,Apr,Yes,250,Gen Z
+C0034,26,Male,Mumbai,Online,Email,Gin Fizz,Single,250,02-06-2025,1,250,No,4,No,0,Jun,No,250,Millennial
+C0035,26,Male,Ahmedabad,Online,Email,Whisky Sour,4-Pack,350,04-06-2025,4,1400,No,5,Yes,25,Jun,Yes,350,Millennial
+C0036,39,Male,Bangalore,Online,Social Media,Margarita,Single,250,15-05-2025,1,250,No,5,No,0,May,No,250,Gen X
+C0037,21,Female,Chennai,Online,Social Media,Whisky Sour,Single,250,06-01-2025,1,250,Yes,5,No,0,Jan,No,250,Gen Z
+C0038,25,Female,Bangalore,Retail,Social Media,Cosmopolitan,Single,250,17-04-2025,1,250,No,5,Yes,0,Apr,Yes,250,Gen Z
+C0039,37,Female,Delhi,Online,None,Long Island,Single,250,03-03-2025,1,250,Yes,5,No,0,Mar,Yes,250,Gen X
+C0040,25,Female,Ahmedabad,Online,Email,Rum Punch,4-Pack,350,13-01-2025,4,1400,No,4,Yes,0,Jan,No,350,Gen Z
+C0041,24,Male,Hyderabad,Retail,None,Whisky Sour,12-Pack,400,28-12-2024,24,9600,No,5,No,0,Dec,No,400,Gen Z
+C0042,21,Male,Mumbai,Online,Email,Long Island,12-Pack,400,29-05-2025,12,4800,No,5,Yes,0,May,Yes,400,Gen Z
+C0043,22,Male,Hyderabad,Online,Email,Rum Punch,Single,250,10-02-2025,1,250,No,4,No,0,Feb,Yes,250,Gen Z
+C0044,39,Female,Hyderabad,Online,Social Media,Long Island,4-Pack,350,23-05-2025,4,1400,No,5,No,0,May,Yes,350,Gen X
+C0045,30,Female,Kolkata,Online,Email,Whisky Sour,4-Pack,350,28-06-2025,4,1400,Yes,4,Yes,0,Jun,No,350,Millennial
+C0046,32,Male,Kolkata,Online,Email,Rum Punch,4-Pack,350,15-02-2025,4,1400,No,4,No,0,Feb,Yes,350,Millennial
+C0047,39,Male,Pune,Online,Social Media,Long Island,12-Pack,400,14-01-2025,12,4800,Yes,5,No,0,Jan,No,400,Gen X
+C0048,35,Female,Pune,Online,Social Media,Rum Punch,4-Pack,350,27-06-2025,4,1400,Yes,5,No,0,Jun,Yes,350,Millennial
+C0049,41,Female,Delhi,Online,Social Media,Margarita,4-Pack,350,01-02-2025,4,1400,No,4,Yes,18,Feb,No,350,Gen X
+C0050,32,Female,Pune,Retail,None,Margarita,4-Pack,350,28-02-2025,4,1400,No,5,Yes,0,Feb,No,350,Millennial
+C0051,36,Male,Mumbai,Retail,None,Whisky Sour,Single,250,28-05-2025,1,250,No,4,Yes,25,May,Yes,250,Gen X
+C0052,27,Female,Mumbai,Online,None,Whisky Sour,Single,250,03-05-2025,1,250,No,3,No,0,May,Yes,250,Millennial
+C0053,28,Male,Kolkata,Online,Email,Gin Fizz,4-Pack,350,15-06-2025,4,1400,No,4,Yes,30,Jun,Yes,350,Millennial
+C0054,26,Male,Delhi,Retail,None,Gin Fizz,4-Pack,350,13-04-2025,4,1400,Yes,5,No,0,Apr,Yes,350,Millennial
+C0055,39,Female,Bangalore,Retail,Email,Whisky Sour,4-Pack,350,07-03-2025,4,1400,No,4,Yes,22,Mar,Yes,350,Gen X
+C0056,32,Male,Bangalore,Retail,Social Media,Cosmopolitan,Single,250,14-04-2025,1,250,Yes,4,Yes,0,Apr,Yes,250,Millennial
+C0057,38,Male,Pune,Online,Social Media,Long Island,Single,250,01-04-2025,1,250,No,3,Yes,0,Apr,No,250,Gen X
+C0058,36,Male,Kolkata,Online,None,Rum Punch,12-Pack,400,09-04-2025,24,9600,No,4,Yes,0,Apr,No,400,Gen X
+C0059,33,Female,Mumbai,Online,Social Media,Mojito,4-Pack,350,05-04-2025,4,1400,No,4,No,0,Apr,Yes,350,Millennial
+C0060,37,Male,Bangalore,Retail,Social Media,Margarita,4-Pack,350,02-06-2025,4,1400,Yes,5,No,0,Jun,No,350,Gen X
+C0061,26,Female,Chennai,Retail,Email,Whisky Sour,4-Pack,350,03-06-2025,4,1400,No,4,Yes,7,Jun,Yes,350,Millennial
+C0062,24,Male,Delhi,Online,Email,Whisky Sour,4-Pack,350,03-03-2025,4,1400,Yes,4,Yes,28,Mar,No,350,Gen Z
+C0063,32,Male,Mumbai,Retail,None,Margarita,Single,250,13-02-2025,1,250,No,4,Yes,29,Feb,No,250,Millennial
+C0064,34,Male,Chennai,Retail,Social Media,Margarita,Single,250,29-05-2025,1,250,Yes,4,Yes,21,May,Yes,250,Millennial
+C0065,22,Female,Chennai,Online,Email,Whisky Sour,4-Pack,350,10-04-2025,4,1400,No,5,No,0,Apr,Yes,350,Gen Z
+C0066,44,Male,Mumbai,Retail,Email,Margarita,Single,250,20-02-2025,1,250,Yes,4,Yes,17,Feb,Yes,250,Gen X
+C0067,39,Male,Chennai,Online,Social Media,Long Island,4-Pack,350,22-01-2025,4,1400,No,3,No,0,Jan,No,350,Gen X
+C0068,23,Male,Delhi,Online,None,Whisky Sour,4-Pack,350,11-02-2025,4,1400,No,4,Yes,28,Feb,No,350,Gen Z
+C0069,25,Female,Bangalore,Online,Social Media,Rum Punch,Single,250,24-03-2025,1,250,No,4,Yes,21,Mar,No,250,Gen Z
+C0070,44,Male,Delhi,Retail,None,Cosmopolitan,Single,250,24-01-2025,1,250,Yes,5,No,0,Jan,Yes,250,Gen X
+C0071,35,Male,Delhi,Online,None,Margarita,Single,250,02-01-2025,1,250,No,4,No,0,Jan,Yes,250,Millennial
+C0072,44,Female,Delhi,Online,Email,Rum Punch,12-Pack,400,01-05-2025,12,4800,Yes,5,Yes,25,May,Yes,400,Gen X
+C0073,43,Male,Bangalore,Online,Social Media,Long Island,Single,250,23-05-2025,1,250,Yes,4,Yes,23,May,No,250,Gen X
+C0074,24,Male,Delhi,Online,Email,Long Island,4-Pack,350,17-05-2025,4,1400,No,4,Yes,18,May,Yes,350,Gen Z
+C0075,25,Male,Delhi,Online,Email,Margarita,4-Pack,350,15-06-2025,4,1400,No,4,Yes,28,Jun,Yes,350,Gen Z
+C0076,43,Female,Hyderabad,Online,None,Long Island,Single,250,05-01-2025,1,250,No,3,No,0,Jan,Yes,250,Gen X
+C0077,28,Female,Ahmedabad,Retail,None,Whisky Sour,12-Pack,400,07-01-2025,12,4800,No,3,No,0,Jan,No,400,Millennial
+C0078,26,Male,Ahmedabad,Retail,None,Long Island,4-Pack,350,20-05-2025,4,1400,Yes,5,Yes,0,May,No,350,Millennial
+C0079,21,Male,Bangalore,Retail,Email,Long Island,4-Pack,350,05-05-2025,4,1400,Yes,4,No,0,May,Yes,350,Gen Z
+C0080,23,Male,Hyderabad,Online,Social Media,Mojito,Single,250,28-12-2024,1,250,Yes,5,Yes,0,Dec,Yes,250,Gen Z
+C0081,25,Male,Kolkata,Online,Social Media,Cosmopolitan,4-Pack,350,09-03-2025,4,1400,No,3,No,0,Mar,No,350,Gen Z
+C0082,38,Male,Delhi,Online,Email,Whisky Sour,12-Pack,400,11-02-2025,12,4800,Yes,5,Yes,14,Feb,No,400,Gen X
+C0083,34,Male,Kolkata,Retail,None,Mojito,Single,250,25-03-2025,1,250,Yes,4,No,0,Mar,Yes,250,Millennial
+C0084,30,Female,Delhi,Online,None,Gin Fizz,4-Pack,350,28-06-2025,4,1400,No,4,No,0,Jun,No,350,Millennial
+C0085,37,Male,Delhi,Retail,Social Media,Rum Punch,4-Pack,350,09-03-2025,8,2800,No,3,No,0,Mar,No,350,Gen X
+C0086,28,Female,Hyderabad,Retail,Social Media,Rum Punch,12-Pack,400,01-06-2025,12,4800,No,4,No,0,Jun,No,400,Millennial
+C0087,25,Male,Delhi,Retail,Social Media,Margarita,Single,250,07-05-2025,1,250,No,4,No,0,May,Yes,250,Gen Z
+C0088,33,Male,Pune,Online,None,Gin Fizz,Single,250,04-06-2025,1,250,No,5,Yes,0,Jun,No,250,Millennial
+C0089,22,Male,Kolkata,Online,Email,Rum Punch,4-Pack,350,18-06-2025,4,1400,No,5,No,0,Jun,Yes,350,Gen Z
+C0090,26,Female,Kolkata,Online,Social Media,Margarita,12-Pack,400,12-01-2025,12,4800,No,4,No,0,Jan,Yes,400,Millennial
+C0091,31,Female,Mumbai,Retail,Email,Mojito,4-Pack,350,25-01-2025,8,2800,No,3,No,0,Jan,No,350,Millennial
+C0092,42,Female,Bangalore,Online,Social Media,Long Island,12-Pack,400,07-01-2025,24,9600,Yes,4,Yes,0,Jan,No,400,Gen X
+C0093,21,Female,Mumbai,Retail,Email,Long Island,4-Pack,350,13-02-2025,4,1400,Yes,4,No,0,Feb,Yes,350,Gen Z
+C0094,29,Female,Pune,Online,Social Media,Mojito,12-Pack,400,13-01-2025,24,9600,No,4,No,0,Jan,No,400,Millennial
+C0095,32,Female,Chennai,Retail,Social Media,Mojito,4-Pack,350,19-01-2025,4,1400,Yes,4,No,0,Jan,Yes,350,Millennial
+C0096,38,Male,Kolkata,Retail,Social Media,Rum Punch,12-Pack,400,16-06-2025,12,4800,No,3,No,0,Jun,No,400,Gen X
+C0097,21,Female,Ahmedabad,Online,Social Media,Cosmopolitan,4-Pack,350,15-02-2025,4,1400,Yes,4,No,0,Feb,Yes,350,Gen Z
+C0098,36,Female,Kolkata,Online,Social Media,Gin Fizz,4-Pack,350,07-04-2025,4,1400,No,4,Yes,12,Apr,Yes,350,Gen X
+C0099,21,Male,Mumbai,Online,Social Media,Mojito,4-Pack,350,03-02-2025,4,1400,No,4,No,0,Feb,No,350,Gen Z
+C0100,38,Female,Delhi,Retail,Social Media,Margarita,4-Pack,350,20-06-2025,4,1400,Yes,4,Yes,21,Jun,Yes,350,Gen X
+C0101,21,Female,Pune,Online,Email,Margarita,12-Pack,400,02-05-2025,24,9600,No,5,No,0,May,No,400,Gen Z
+C0102,42,Male,Chennai,Online,Social Media,Gin Fizz,12-Pack,400,12-02-2025,12,4800,Yes,4,Yes,0,Feb,No,400,Gen X
+C0103,38,Female,Mumbai,Retail,None,Gin Fizz,Single,250,20-06-2025,1,250,Yes,4,Yes,0,Jun,No,250,Gen X
+C0104,26,Female,Delhi,Retail,Social Media,Cosmopolitan,12-Pack,400,11-05-2025,12,4800,No,5,Yes,30,May,No,400,Millennial
+C0105,37,Male,Chennai,Online,Email,Whisky Sour,4-Pack,350,11-06-2025,4,1400,No,4,No,0,Jun,No,350,Gen X
+C0106,33,Female,Mumbai,Retail,Email,Rum Punch,12-Pack,400,07-02-2025,12,4800,No,4,Yes,11,Feb,No,400,Millennial
+C0107,32,Female,Chennai,Online,Social Media,Cosmopolitan,Single,250,17-05-2025,1,250,No,5,Yes,18,May,No,250,Millennial
+C0108,27,Male,Pune,Online,None,Long Island,4-Pack,350,10-01-2025,4,1400,No,4,No,0,Jan,Yes,350,Millennial
+C0109,41,Male,Hyderabad,Retail,Social Media,Margarita,Single,250,01-05-2025,1,250,Yes,4,No,0,May,Yes,250,Gen X
+C0110,23,Male,Mumbai,Retail,Social Media,Long Island,12-Pack,400,13-02-2025,12,4800,No,4,Yes,25,Feb,No,400,Gen Z
+C0111,37,Female,Pune,Online,Email,Margarita,Single,250,22-06-2025,1,250,No,3,Yes,23,Jun,No,250,Gen X
+C0112,31,Male,Kolkata,Online,Social Media,Mojito,Single,250,30-01-2025,1,250,Yes,3,No,0,Jan,Yes,250,Millennial
+C0113,32,Female,Ahmedabad,Online,Social Media,Cosmopolitan,12-Pack,400,04-03-2025,12,4800,No,4,Yes,0,Mar,No,400,Millennial
+C0114,41,Male,Ahmedabad,Retail,Email,Whisky Sour,4-Pack,350,28-04-2025,8,2800,No,4,No,0,Apr,Yes,350,Gen X
+C0115,35,Male,Ahmedabad,Online,Email,Gin Fizz,12-Pack,400,02-04-2025,12,4800,No,4,Yes,13,Apr,Yes,400,Millennial
+C0116,28,Female,Hyderabad,Retail,None,Whisky Sour,4-Pack,350,01-03-2025,8,2800,No,4,No,0,Mar,Yes,350,Millennial
+C0117,44,Female,Pune,Online,Social Media,Long Island,Single,250,05-01-2025,1,250,No,4,No,0,Jan,Yes,250,Gen X
+C0118,35,Male,Bangalore,Retail,Email,Margarita,4-Pack,350,01-06-2025,4,1400,No,4,No,0,Jun,No,350,Millennial
+C0119,23,Male,Mumbai,Retail,Social Media,Gin Fizz,12-Pack,400,24-03-2025,12,4800,No,5,No,0,Mar,Yes,400,Gen Z
+C0120,37,Male,Delhi,Online,Social Media,Cosmopolitan,4-Pack,350,23-01-2025,8,2800,No,5,Yes,0,Jan,No,350,Gen X
+C0121,37,Female,Hyderabad,Online,Social Media,Whisky Sour,Single,250,03-03-2025,1,250,Yes,4,Yes,7,Mar,No,250,Gen X
+C0122,29,Male,Ahmedabad,Online,Social Media,Long Island,Single,250,18-02-2025,1,250,No,5,Yes,12,Feb,No,250,Millennial
+C0123,34,Female,Kolkata,Retail,None,Cosmopolitan,12-Pack,400,17-06-2025,12,4800,Yes,4,No,0,Jun,Yes,400,Millennial
+C0124,39,Male,Bangalore,Online,Social Media,Gin Fizz,Single,250,25-05-2025,1,250,Yes,3,No,0,May,Yes,250,Gen X
+C0125,25,Female,Hyderabad,Retail,Social Media,Whisky Sour,4-Pack,350,10-03-2025,4,1400,No,4,Yes,0,Mar,No,350,Gen Z
+C0126,23,Male,Hyderabad,Retail,Social Media,Rum Punch,Single,250,16-03-2025,1,250,No,4,Yes,8,Mar,No,250,Gen Z
+C0127,23,Female,Delhi,Online,Social Media,Margarita,Single,250,18-06-2025,1,250,No,3,No,0,Jun,No,250,Gen Z
+C0128,31,Female,Delhi,Online,Social Media,Cosmopolitan,Single,250,25-03-2025,1,250,Yes,5,Yes,12,Mar,Yes,250,Millennial
+C0129,33,Female,Delhi,Retail,None,Mojito,Single,250,20-06-2025,1,250,No,4,No,0,Jun,No,250,Millennial
+C0130,28,Male,Pune,Retail,Email,Whisky Sour,Single,250,12-02-2025,1,250,No,5,No,0,Feb,No,250,Millennial
+C0131,36,Female,Chennai,Retail,None,Cosmopolitan,4-Pack,350,05-04-2025,4,1400,No,5,Yes,17,Apr,No,350,Gen X
+C0132,39,Female,Ahmedabad,Retail,Social Media,Whisky Sour,12-Pack,400,10-06-2025,12,4800,No,3,No,0,Jun,No,400,Gen X
+C0133,32,Male,Hyderabad,Online,Social Media,Cosmopolitan,4-Pack,350,14-04-2025,8,2800,No,4,No,0,Apr,No,350,Millennial
+C0134,23,Female,Bangalore,Online,Social Media,Rum Punch,Single,250,01-05-2025,1,250,No,5,Yes,0,May,No,250,Gen Z
+C0135,42,Male,Ahmedabad,Retail,Email,Margarita,Single,250,28-12-2024,1,250,Yes,5,Yes,0,Dec,Yes,250,Gen X
+C0136,44,Female,Pune,Online,None,Rum Punch,12-Pack,400,29-01-2025,24,9600,No,3,No,0,Jan,Yes,400,Gen X
+C0137,31,Female,Hyderabad,Retail,Social Media,Rum Punch,12-Pack,400,24-03-2025,12,4800,Yes,3,No,0,Mar,No,400,Millennial
+C0138,23,Female,Ahmedabad,Online,Social Media,Cosmopolitan,4-Pack,350,26-02-2025,4,1400,Yes,3,No,0,Feb,No,350,Gen Z
+C0139,23,Female,Kolkata,Retail,Social Media,Margarita,4-Pack,350,17-02-2025,8,2800,No,4,Yes,11,Feb,Yes,350,Gen Z
+C0140,26,Female,Delhi,Online,Social Media,Long Island,Single,250,12-06-2025,1,250,No,4,No,0,Jun,No,250,Millennial
+C0141,28,Male,Pune,Online,Social Media,Gin Fizz,Single,250,12-06-2025,1,250,Yes,4,Yes,13,Jun,No,250,Millennial
+C0142,32,Female,Chennai,Online,None,Gin Fizz,4-Pack,350,09-05-2025,4,1400,No,3,Yes,0,May,No,350,Millennial
+C0143,26,Male,Ahmedabad,Online,Social Media,Long Island,4-Pack,350,11-05-2025,4,1400,No,4,No,0,May,Yes,350,Millennial
+C0144,41,Male,Delhi,Online,Social Media,Rum Punch,4-Pack,350,02-05-2025,4,1400,Yes,4,No,0,May,No,350,Gen X
+C0145,28,Male,Ahmedabad,Retail,Email,Whisky Sour,Single,250,20-01-2025,1,250,Yes,4,Yes,0,Jan,Yes,250,Millennial
+C0146,21,Female,Delhi,Online,Social Media,Gin Fizz,Single,250,14-02-2025,1,250,No,3,No,0,Feb,Yes,250,Gen Z
+C0147,40,Male,Pune,Online,Social Media,Cosmopolitan,12-Pack,400,12-01-2025,12,4800,No,5,Yes,18,Jan,No,400,Gen X
+C0148,23,Male,Bangalore,Retail,Email,Margarita,4-Pack,350,14-01-2025,4,1400,Yes,5,No,0,Jan,No,350,Gen Z
+C0149,40,Male,Ahmedabad,Online,None,Margarita,Single,250,06-04-2025,1,250,No,4,No,0,Apr,No,250,Gen X
+C0150,23,Male,Kolkata,Online,Social Media,Gin Fizz,4-Pack,350,08-01-2025,4,1400,No,4,Yes,0,Jan,Yes,350,Gen Z
+C0151,34,Female,Kolkata,Online,Social Media,Long Island,4-Pack,350,19-05-2025,4,1400,No,4,No,0,May,Yes,350,Millennial
+C0152,44,Female,Chennai,Retail,Email,Margarita,Single,250,19-06-2025,1,250,No,3,Yes,7,Jun,No,250,Gen X
+C0153,41,Female,Mumbai,Retail,Email,Whisky Sour,4-Pack,350,14-03-2025,4,1400,No,5,Yes,23,Mar,No,350,Gen X
+C0154,24,Male,Bangalore,Online,Social Media,Margarita,4-Pack,350,13-06-2025,4,1400,No,4,No,0,Jun,Yes,350,Gen Z
+C0155,32,Male,Ahmedabad,Online,Social Media,Gin Fizz,12-Pack,400,19-06-2025,12,4800,No,4,No,0,Jun,No,400,Millennial
+C0156,34,Male,Chennai,Retail,Social Media,Mojito,12-Pack,400,24-02-2025,12,4800,Yes,5,Yes,30,Feb,Yes,400,Millennial
+C0157,22,Male,Hyderabad,Online,Email,Mojito,Single,250,24-02-2025,1,250,No,5,Yes,0,Feb,No,250,Gen Z
+C0158,24,Female,Bangalore,Retail,Social Media,Margarita,Single,250,04-04-2025,1,250,Yes,3,No,0,Apr,Yes,250,Gen Z
+C0159,29,Female,Kolkata,Online,Social Media,Whisky Sour,4-Pack,350,30-05-2025,4,1400,Yes,3,Yes,11,May,No,350,Millennial
+C0160,25,Male,Mumbai,Retail,Email,Margarita,4-Pack,350,15-04-2025,8,2800,No,4,Yes,0,Apr,Yes,350,Gen Z
+C0161,25,Male,Delhi,Retail,Social Media,Gin Fizz,Single,250,12-03-2025,1,250,No,5,Yes,23,Mar,Yes,250,Gen Z
+C0162,30,Female,Kolkata,Online,Social Media,Margarita,4-Pack,350,23-02-2025,4,1400,Yes,5,Yes,30,Feb,No,350,Millennial
+C0163,43,Female,Pune,Retail,Social Media,Gin Fizz,Single,250,06-03-2025,1,250,Yes,5,Yes,0,Mar,No,250,Gen X
+C0164,21,Male,Pune,Retail,Social Media,Mojito,Single,250,28-01-2025,1,250,No,4,No,0,Jan,No,250,Gen Z
+C0165,31,Male,Chennai,Retail,Social Media,Cosmopolitan,4-Pack,350,11-01-2025,8,2800,No,3,No,0,Jan,No,350,Millennial
+C0166,21,Male,Kolkata,Retail,None,Cosmopolitan,12-Pack,400,04-05-2025,12,4800,No,4,Yes,12,May,No,400,Gen Z
+C0167,29,Male,Mumbai,Retail,Email,Whisky Sour,Single,250,14-03-2025,1,250,Yes,3,No,0,Mar,No,250,Millennial
+C0168,24,Female,Kolkata,Retail,None,Gin Fizz,4-Pack,350,09-04-2025,4,1400,No,5,Yes,28,Apr,Yes,350,Gen Z
+C0169,35,Male,Delhi,Retail,Email,Margarita,4-Pack,350,08-06-2025,4,1400,No,4,Yes,0,Jun,Yes,350,Millennial
+C0170,31,Male,Bangalore,Retail,Email,Mojito,4-Pack,350,13-04-2025,4,1400,No,5,Yes,0,Apr,Yes,350,Millennial
+C0171,32,Female,Chennai,Online,Email,Mojito,Single,250,07-06-2025,1,250,No,4,Yes,0,Jun,No,250,Millennial
+C0172,31,Female,Kolkata,Online,Social Media,Whisky Sour,Single,250,23-06-2025,1,250,No,5,Yes,17,Jun,Yes,250,Millennial
+C0173,41,Female,Pune,Online,Social Media,Gin Fizz,Single,250,28-02-2025,1,250,No,4,No,0,Feb,No,250,Gen X
+C0174,23,Male,Mumbai,Online,Social Media,Gin Fizz,4-Pack,350,21-04-2025,4,1400,No,5,Yes,13,Apr,No,350,Gen Z
+C0175,27,Male,Ahmedabad,Online,Email,Gin Fizz,Single,250,11-05-2025,1,250,No,4,No,0,May,No,250,Millennial
+C0176,27,Male,Mumbai,Retail,Social Media,Long Island,4-Pack,350,30-12-2024,4,1400,Yes,4,Yes,0,Dec,Yes,350,Millennial
+C0177,30,Male,Kolkata,Online,Social Media,Long Island,12-Pack,400,22-05-2025,12,4800,No,4,Yes,30,May,No,400,Millennial
+C0178,27,Female,Bangalore,Retail,Social Media,Cosmopolitan,4-Pack,350,22-06-2025,4,1400,No,3,No,0,Jun,No,350,Millennial
+C0179,43,Male,Hyderabad,Online,Social Media,Gin Fizz,Single,250,18-03-2025,1,250,Yes,4,No,0,Mar,Yes,250,Gen X
+C0180,33,Male,Kolkata,Online,Social Media,Mojito,12-Pack,400,24-05-2025,12,4800,No,4,Yes,13,May,No,400,Millennial
+C0181,27,Female,Delhi,Online,None,Whisky Sour,4-Pack,350,14-04-2025,4,1400,No,5,Yes,11,Apr,No,350,Millennial
+C0182,29,Female,Hyderabad,Online,Social Media,Cosmopolitan,Single,250,19-03-2025,1,250,Yes,4,Yes,0,Mar,Yes,250,Millennial
+C0183,41,Male,Mumbai,Online,Email,Gin Fizz,4-Pack,350,05-06-2025,4,1400,No,3,Yes,0,Jun,Yes,350,Gen X
+C0184,23,Female,Kolkata,Retail,Social Media,Long Island,Single,250,15-04-2025,1,250,No,5,Yes,21,Apr,Yes,250,Gen Z
+C0185,30,Female,Bangalore,Online,Social Media,Long Island,4-Pack,350,22-06-2025,4,1400,No,5,No,0,Jun,Yes,350,Millennial
+C0186,39,Female,Pune,Online,None,Long Island,12-Pack,400,10-06-2025,12,4800,No,4,No,0,Jun,Yes,400,Gen X
+C0187,27,Male,Delhi,Retail,Email,Gin Fizz,4-Pack,350,27-02-2025,4,1400,Yes,3,Yes,0,Feb,Yes,350,Millennial
+C0188,22,Female,Mumbai,Retail,Email,Rum Punch,Single,250,06-01-2025,1,250,No,4,No,0,Jan,No,250,Gen Z
+C0189,23,Female,Ahmedabad,Retail,Email,Cosmopolitan,4-Pack,350,05-03-2025,4,1400,No,4,Yes,19,Mar,No,350,Gen Z
+C0190,30,Male,Ahmedabad,Retail,None,Long Island,4-Pack,350,02-06-2025,4,1400,Yes,4,Yes,8,Jun,Yes,350,Millennial
+C0191,40,Female,Pune,Online,None,Mojito,4-Pack,350,09-02-2025,4,1400,Yes,4,Yes,0,Feb,No,350,Gen X
+C0192,40,Female,Pune,Online,Social Media,Gin Fizz,Single,250,23-02-2025,1,250,No,3,Yes,0,Feb,Yes,250,Gen X
+C0193,32,Male,Delhi,Retail,Social Media,Cosmopolitan,Single,250,23-02-2025,1,250,No,4,Yes,0,Feb,Yes,250,Millennial
+C0194,22,Male,Kolkata,Retail,Social Media,Gin Fizz,Single,250,28-04-2025,1,250,No,4,Yes,0,Apr,Yes,250,Gen Z
+C0195,44,Male,Pune,Online,Social Media,Margarita,Single,250,25-01-2025,1,250,Yes,5,Yes,0,Jan,No,250,Gen X
+C0196,21,Female,Ahmedabad,Online,None,Mojito,12-Pack,400,19-03-2025,12,4800,Yes,4,Yes,0,Mar,Yes,400,Gen Z
+C0197,40,Female,Pune,Online,Email,Rum Punch,Single,250,30-01-2025,1,250,No,4,Yes,28,Jan,Yes,250,Gen X
+C0198,22,Female,Chennai,Online,Social Media,Cosmopolitan,4-Pack,350,24-03-2025,4,1400,No,3,No,0,Mar,Yes,350,Gen Z
+C0199,38,Female,Mumbai,Retail,Social Media,Rum Punch,Single,250,08-03-2025,1,250,Yes,4,Yes,17,Mar,No,250,Gen X
+C0200,43,Female,Kolkata,Online,Social Media,Rum Punch,12-Pack,400,25-02-2025,12,4800,No,5,No,0,Feb,No,400,Gen X
+C0201,30,Female,Mumbai,Retail,None,Mojito,12-Pack,400,28-06-2025,12,4800,Yes,4,Yes,0,Jun,No,400,Millennial
+C0202,28,Female,Chennai,Online,Email,Gin Fizz,4-Pack,350,23-03-2025,8,2800,No,4,Yes,30,Mar,Yes,350,Millennial
+C0203,32,Male,Hyderabad,Online,Email,Long Island,Single,250,01-01-2025,1,250,Yes,5,Yes,30,Jan,Yes,250,Millennial
+C0204,25,Female,Ahmedabad,Online,Social Media,Long Island,4-Pack,350,01-01-2025,8,2800,No,5,No,0,Jan,Yes,350,Gen Z
+C0205,25,Female,Ahmedabad,Online,None,Rum Punch,Single,250,09-05-2025,1,250,No,3,No,0,May,No,250,Gen Z
+C0206,28,Female,Pune,Retail,Email,Mojito,Single,250,08-02-2025,1,250,Yes,3,No,0,Feb,No,250,Millennial
+C0207,29,Female,Pune,Retail,Social Media,Rum Punch,12-Pack,400,09-01-2025,12,4800,Yes,4,Yes,19,Jan,No,400,Millennial
+C0208,36,Female,Ahmedabad,Retail,Email,Gin Fizz,Single,250,10-02-2025,1,250,Yes,5,Yes,14,Feb,No,250,Gen X
+C0209,38,Female,Mumbai,Retail,Social Media,Gin Fizz,Single,250,25-01-2025,1,250,Yes,5,No,0,Jan,Yes,250,Gen X
+C0210,43,Male,Mumbai,Retail,Social Media,Cosmopolitan,4-Pack,350,31-05-2025,4,1400,Yes,5,No,0,May,No,350,Gen X
+C0211,43,Male,Delhi,Retail,Social Media,Cosmopolitan,4-Pack,350,27-05-2025,8,2800,No,3,Yes,27,May,Yes,350,Gen X
+C0212,38,Female,Hyderabad,Online,Email,Long Island,12-Pack,400,05-04-2025,12,4800,No,4,Yes,28,Apr,Yes,400,Gen X
+C0213,27,Female,Ahmedabad,Online,None,Margarita,4-Pack,350,20-03-2025,4,1400,No,5,No,0,Mar,No,350,Millennial
+C0214,24,Female,Pune,Online,Social Media,Gin Fizz,12-Pack,400,17-05-2025,12,4800,No,5,No,0,May,Yes,400,Gen Z
+C0215,29,Male,Chennai,Online,Email,Margarita,4-Pack,350,07-06-2025,4,1400,No,5,Yes,8,Jun,Yes,350,Millennial
+C0216,31,Male,Ahmedabad,Retail,None,Margarita,4-Pack,350,21-06-2025,4,1400,Yes,4,No,0,Jun,No,350,Millennial
+C0217,42,Female,Hyderabad,Online,Social Media,Margarita,4-Pack,350,10-01-2025,4,1400,Yes,4,Yes,0,Jan,No,350,Gen X
+C0218,27,Female,Hyderabad,Online,Email,Gin Fizz,Single,250,25-03-2025,1,250,No,4,Yes,0,Mar,No,250,Millennial
+C0219,39,Female,Bangalore,Online,None,Rum Punch,4-Pack,350,09-03-2025,4,1400,Yes,4,No,0,Mar,No,350,Gen X
+C0220,24,Male,Pune,Online,Social Media,Margarita,Single,250,08-03-2025,1,250,Yes,4,Yes,26,Mar,No,250,Gen Z
+C0221,35,Male,Chennai,Retail,None,Margarita,4-Pack,350,21-05-2025,4,1400,No,5,Yes,12,May,No,350,Millennial
+C0222,31,Male,Kolkata,Retail,None,Gin Fizz,Single,250,09-01-2025,1,250,No,5,Yes,17,Jan,No,250,Millennial
+C0223,42,Female,Chennai,Online,Email,Margarita,Single,250,18-03-2025,1,250,No,4,Yes,25,Mar,No,250,Gen X
+C0224,25,Male,Pune,Online,Social Media,Long Island,12-Pack,400,03-06-2025,12,4800,No,3,No,0,Jun,No,400,Gen Z
+C0225,44,Female,Chennai,Retail,Email,Long Island,Single,250,21-04-2025,1,250,No,3,No,0,Apr,No,250,Gen X
+C0226,24,Female,Pune,Online,Social Media,Margarita,Single,250,13-03-2025,1,250,Yes,4,Yes,0,Mar,No,250,Gen Z
+C0227,36,Male,Kolkata,Retail,Social Media,Cosmopolitan,4-Pack,350,06-04-2025,4,1400,No,3,Yes,17,Apr,Yes,350,Gen X
+C0228,38,Female,Mumbai,Online,Social Media,Gin Fizz,12-Pack,400,24-02-2025,12,4800,No,5,Yes,13,Feb,Yes,400,Gen X
+C0229,32,Female,Ahmedabad,Retail,Email,Rum Punch,4-Pack,350,29-05-2025,8,2800,Yes,5,Yes,23,May,Yes,350,Millennial
+C0230,41,Female,Hyderabad,Retail,Social Media,Margarita,Single,250,05-02-2025,1,250,Yes,4,Yes,0,Feb,No,250,Gen X
+C0231,37,Female,Pune,Retail,Social Media,Whisky Sour,4-Pack,350,12-01-2025,4,1400,No,4,No,0,Jan,Yes,350,Gen X
+C0232,22,Male,Delhi,Online,Social Media,Whisky Sour,12-Pack,400,18-03-2025,12,4800,No,4,Yes,0,Mar,Yes,400,Gen Z
+C0233,35,Female,Kolkata,Online,None,Margarita,4-Pack,350,04-06-2025,4,1400,No,4,Yes,0,Jun,Yes,350,Millennial
+C0234,34,Male,Mumbai,Retail,Social Media,Whisky Sour,Single,250,03-02-2025,1,250,No,3,Yes,0,Feb,No,250,Millennial
+C0235,37,Male,Pune,Online,Social Media,Margarita,4-Pack,350,16-06-2025,8,2800,No,4,Yes,26,Jun,No,350,Gen X
+C0236,38,Male,Bangalore,Online,Social Media,Gin Fizz,Single,250,20-03-2025,1,250,Yes,3,No,0,Mar,No,250,Gen X
+C0237,25,Male,Pune,Retail,Email,Gin Fizz,Single,250,09-04-2025,1,250,No,4,Yes,0,Apr,No,250,Gen Z
+C0238,27,Female,Delhi,Retail,Social Media,Rum Punch,12-Pack,400,08-01-2025,12,4800,No,4,Yes,14,Jan,No,400,Millennial
+C0239,36,Female,Kolkata,Online,Social Media,Whisky Sour,4-Pack,350,13-04-2025,4,1400,No,5,Yes,22,Apr,No,350,Gen X
+C0240,43,Female,Kolkata,Online,Email,Rum Punch,Single,250,02-02-2025,1,250,No,5,No,0,Feb,Yes,250,Gen X
+C0241,25,Female,Ahmedabad,Online,Email,Cosmopolitan,4-Pack,350,25-03-2025,8,2800,Yes,5,Yes,0,Mar,No,350,Gen Z
+C0242,26,Female,Bangalore,Retail,Social Media,Whisky Sour,4-Pack,350,19-04-2025,4,1400,No,4,Yes,0,Apr,Yes,350,Millennial
+C0243,36,Female,Hyderabad,Retail,None,Long Island,Single,250,07-03-2025,1,250,Yes,3,No,0,Mar,No,250,Gen X
+C0244,31,Female,Chennai,Retail,Email,Long Island,Single,250,05-06-2025,1,250,No,4,No,0,Jun,No,250,Millennial
+C0245,40,Male,Mumbai,Retail,Social Media,Margarita,Single,250,16-03-2025,1,250,Yes,4,Yes,0,Mar,No,250,Gen X
+C0246,43,Male,Hyderabad,Online,Email,Margarita,4-Pack,350,28-06-2025,4,1400,Yes,4,Yes,27,Jun,No,350,Gen X
+C0247,34,Male,Ahmedabad,Retail,Social Media,Rum Punch,12-Pack,400,17-02-2025,12,4800,No,4,No,0,Feb,Yes,400,Millennial
+C0248,22,Female,Kolkata,Online,Social Media,Whisky Sour,12-Pack,400,31-05-2025,12,4800,No,5,Yes,26,May,Yes,400,Gen Z
+C0249,44,Male,Kolkata,Online,None,Cosmopolitan,Single,250,27-04-2025,1,250,No,5,No,0,Apr,No,250,Gen X
+C0250,40,Female,Chennai,Retail,Email,Rum Punch,4-Pack,350,28-02-2025,4,1400,No,4,Yes,0,Feb,Yes,350,Gen X
+C0251,24,Male,Hyderabad,Online,Social Media,Cosmopolitan,Single,250,18-06-2025,1,250,No,4,Yes,9,Jun,Yes,250,Gen Z
+C0252,29,Female,Mumbai,Online,None,Mojito,12-Pack,400,07-05-2025,12,4800,No,5,Yes,0,May,Yes,400,Millennial
+C0253,37,Female,Hyderabad,Online,Social Media,Whisky Sour,Single,250,11-03-2025,1,250,No,4,No,0,Mar,Yes,250,Gen X
+C0254,25,Female,Pune,Online,Social Media,Margarita,Single,250,31-12-2024,1,250,No,4,No,0,Dec,No,250,Gen Z
+C0255,21,Female,Mumbai,Online,Email,Mojito,Single,250,05-03-2025,1,250,No,4,Yes,0,Mar,Yes,250,Gen Z
+C0256,42,Female,Mumbai,Retail,Email,Whisky Sour,4-Pack,350,13-04-2025,4,1400,Yes,4,Yes,0,Apr,No,350,Gen X
+C0257,42,Female,Ahmedabad,Online,Social Media,Margarita,4-Pack,350,11-02-2025,8,2800,Yes,4,No,0,Feb,Yes,350,Gen X
+C0258,32,Female,Kolkata,Retail,None,Mojito,Single,250,17-02-2025,1,250,No,4,Yes,0,Feb,No,250,Millennial
+C0259,36,Male,Bangalore,Online,Social Media,Cosmopolitan,4-Pack,350,12-04-2025,4,1400,Yes,4,Yes,0,Apr,No,350,Gen X
+C0260,41,Male,Pune,Online,Email,Rum Punch,Single,250,10-01-2025,1,250,No,4,Yes,15,Jan,Yes,250,Gen X
+C0261,39,Female,Bangalore,Retail,Email,Gin Fizz,Single,250,04-01-2025,1,250,No,3,No,0,Jan,No,250,Gen X
+C0262,33,Male,Kolkata,Online,Social Media,Long Island,4-Pack,350,12-03-2025,8,2800,No,4,Yes,0,Mar,No,350,Millennial
+C0263,25,Female,Delhi,Online,Email,Rum Punch,Single,250,25-05-2025,1,250,Yes,3,No,0,May,No,250,Gen Z
+C0264,22,Male,Bangalore,Retail,None,Gin Fizz,4-Pack,350,03-01-2025,4,1400,No,4,No,0,Jan,No,350,Gen Z
+C0265,39,Male,Chennai,Online,None,Rum Punch,4-Pack,350,12-02-2025,4,1400,No,4,Yes,24,Feb,No,350,Gen X
+C0266,27,Female,Hyderabad,Retail,Email,Rum Punch,Single,250,08-05-2025,1,250,No,3,No,0,May,Yes,250,Millennial
+C0267,37,Male,Delhi,Retail,Email,Whisky Sour,4-Pack,350,05-04-2025,4,1400,No,5,No,0,Apr,Yes,350,Gen X
+C0268,43,Male,Bangalore,Retail,Social Media,Margarita,Single,250,05-06-2025,1,250,No,4,Yes,15,Jun,No,250,Gen X
+C0269,32,Female,Hyderabad,Retail,None,Rum Punch,12-Pack,400,18-03-2025,24,9600,No,4,Yes,0,Mar,Yes,400,Millennial
+C0270,44,Female,Mumbai,Online,Social Media,Mojito,4-Pack,350,16-03-2025,4,1400,No,4,Yes,0,Mar,Yes,350,Gen X
+C0271,23,Male,Chennai,Online,Social Media,Whisky Sour,4-Pack,350,15-05-2025,4,1400,No,4,Yes,0,May,No,350,Gen Z
+C0272,21,Male,Chennai,Online,Social Media,Margarita,12-Pack,400,05-06-2025,12,4800,No,4,Yes,0,Jun,No,400,Gen Z
+C0273,30,Male,Ahmedabad,Online,Social Media,Gin Fizz,Single,250,26-06-2025,1,250,No,3,No,0,Jun,Yes,250,Millennial
+C0274,25,Female,Pune,Online,Social Media,Gin Fizz,12-Pack,400,21-06-2025,12,4800,Yes,4,Yes,23,Jun,No,400,Gen Z
+C0275,42,Male,Bangalore,Online,Social Media,Long Island,4-Pack,350,16-05-2025,4,1400,No,5,Yes,0,May,Yes,350,Gen X
+C0276,39,Female,Delhi,Online,Email,Margarita,4-Pack,350,13-01-2025,4,1400,No,4,Yes,30,Jan,No,350,Gen X
+C0277,35,Female,Bangalore,Retail,Social Media,Gin Fizz,4-Pack,350,28-04-2025,4,1400,Yes,4,No,0,Apr,No,350,Millennial
+C0278,27,Female,Bangalore,Online,Social Media,Margarita,4-Pack,350,16-03-2025,4,1400,Yes,5,No,0,Mar,No,350,Millennial
+C0279,33,Male,Chennai,Online,Social Media,Cosmopolitan,4-Pack,350,11-05-2025,4,1400,Yes,4,Yes,0,May,Yes,350,Millennial
+C0280,39,Male,Mumbai,Online,Social Media,Rum Punch,4-Pack,350,07-02-2025,4,1400,Yes,4,Yes,30,Feb,Yes,350,Gen X
+C0281,31,Female,Delhi,Retail,Social Media,Rum Punch,4-Pack,350,03-02-2025,8,2800,No,4,No,0,Feb,No,350,Millennial
+C0282,27,Female,Ahmedabad,Retail,Social Media,Gin Fizz,Single,250,01-03-2025,1,250,No,4,No,0,Mar,No,250,Millennial
+C0283,39,Male,Kolkata,Online,Social Media,Rum Punch,Single,250,10-02-2025,1,250,No,4,No,0,Feb,No,250,Gen X
+C0284,42,Female,Hyderabad,Retail,Email,Long Island,4-Pack,350,04-03-2025,4,1400,Yes,4,No,0,Mar,Yes,350,Gen X
+C0285,44,Female,Chennai,Online,Email,Rum Punch,12-Pack,400,11-05-2025,12,4800,No,3,Yes,9,May,Yes,400,Gen X
+C0286,25,Female,Mumbai,Retail,Social Media,Gin Fizz,4-Pack,350,19-05-2025,4,1400,No,5,No,0,May,No,350,Gen Z
+C0287,28,Male,Hyderabad,Online,Email,Rum Punch,Single,250,17-03-2025,1,250,No,3,No,0,Mar,No,250,Millennial
+C0288,34,Male,Ahmedabad,Retail,None,Margarita,Single,250,17-06-2025,1,250,No,4,Yes,14,Jun,No,250,Millennial
+C0289,30,Female,Kolkata,Online,Social Media,Mojito,Single,250,23-04-2025,1,250,No,4,Yes,8,Apr,No,250,Millennial
+C0290,43,Male,Delhi,Retail,Social Media,Cosmopolitan,12-Pack,400,20-06-2025,12,4800,No,4,No,0,Jun,No,400,Gen X
+C0291,41,Male,Kolkata,Online,Social Media,Long Island,4-Pack,350,02-04-2025,4,1400,No,5,Yes,0,Apr,No,350,Gen X
+C0292,40,Male,Bangalore,Retail,Social Media,Margarita,4-Pack,350,25-02-2025,4,1400,No,4,Yes,19,Feb,No,350,Gen X
+C0293,38,Female,Chennai,Online,Social Media,Whisky Sour,12-Pack,400,21-05-2025,12,4800,No,4,Yes,0,May,No,400,Gen X
+C0294,38,Male,Mumbai,Online,Email,Mojito,Single,250,09-04-2025,1,250,No,3,Yes,17,Apr,Yes,250,Gen X
+C0295,39,Male,Bangalore,Online,None,Long Island,4-Pack,350,10-03-2025,8,2800,No,4,Yes,0,Mar,No,350,Gen X
+C0296,37,Male,Kolkata,Retail,Social Media,Rum Punch,Single,250,14-05-2025,1,250,No,5,Yes,29,May,No,250,Gen X
+C0297,33,Female,Mumbai,Online,Social Media,Rum Punch,Single,250,02-02-2025,1,250,No,5,Yes,26,Feb,No,250,Millennial
+C0298,25,Female,Hyderabad,Online,Social Media,Gin Fizz,12-Pack,400,04-01-2025,12,4800,No,4,Yes,20,Jan,Yes,400,Gen Z
+C0299,27,Male,Pune,Retail,Social Media,Whisky Sour,12-Pack,400,12-03-2025,24,9600,Yes,4,Yes,0,Mar,Yes,400,Millennial
+C0300,33,Male,Chennai,Retail,Social Media,Margarita,Single,250,09-03-2025,1,250,No,3,No,0,Mar,No,250,Millennial
+C0301,32,Female,Kolkata,Online,Email,Mojito,Single,250,10-04-2025,1,250,No,4,Yes,0,Apr,No,250,Millennial
+C0302,41,Female,Mumbai,Online,None,Gin Fizz,Single,250,10-02-2025,1,250,No,4,Yes,0,Feb,No,250,Gen X
+C0303,23,Male,Kolkata,Online,Email,Cosmopolitan,4-Pack,350,08-04-2025,4,1400,No,5,Yes,12,Apr,Yes,350,Gen Z
+C0304,36,Male,Chennai,Retail,Email,Rum Punch,12-Pack,400,22-05-2025,12,4800,Yes,5,No,0,May,Yes,400,Gen X
+C0305,26,Female,Ahmedabad,Online,Social Media,Rum Punch,Single,250,07-01-2025,1,250,No,4,No,0,Jan,No,250,Millennial
+C0306,36,Female,Kolkata,Online,Email,Mojito,12-Pack,400,22-01-2025,12,4800,Yes,5,No,0,Jan,No,400,Gen X
+C0307,28,Male,Mumbai,Online,Social Media,Mojito,12-Pack,400,25-03-2025,12,4800,No,4,Yes,0,Mar,Yes,400,Millennial
+C0308,28,Female,Pune,Retail,Email,Gin Fizz,12-Pack,400,04-03-2025,12,4800,No,3,No,0,Mar,Yes,400,Millennial
+C0309,32,Male,Pune,Retail,None,Long Island,12-Pack,400,08-05-2025,12,4800,Yes,5,Yes,10,May,Yes,400,Millennial
+C0310,31,Male,Bangalore,Online,Social Media,Gin Fizz,12-Pack,400,25-02-2025,12,4800,No,5,No,0,Feb,Yes,400,Millennial
+C0311,37,Male,Bangalore,Retail,Social Media,Whisky Sour,Single,250,03-01-2025,1,250,Yes,4,Yes,8,Jan,Yes,250,Gen X
+C0312,41,Female,Hyderabad,Retail,Email,Mojito,12-Pack,400,18-06-2025,12,4800,No,3,No,0,Jun,No,400,Gen X
+C0313,26,Male,Hyderabad,Online,Social Media,Margarita,Single,250,28-02-2025,1,250,No,5,No,0,Feb,No,250,Millennial
+C0314,32,Male,Chennai,Retail,Social Media,Rum Punch,12-Pack,400,22-03-2025,24,9600,No,5,Yes,17,Mar,No,400,Millennial
+C0315,39,Female,Bangalore,Online,Social Media,Gin Fizz,Single,250,08-02-2025,1,250,Yes,5,No,0,Feb,Yes,250,Gen X
+C0316,37,Male,Bangalore,Retail,Email,Mojito,12-Pack,400,06-05-2025,12,4800,Yes,4,No,0,May,Yes,400,Gen X
+C0317,21,Male,Hyderabad,Online,Email,Whisky Sour,12-Pack,400,15-06-2025,12,4800,No,4,No,0,Jun,No,400,Gen Z
+C0318,30,Female,Chennai,Retail,Social Media,Mojito,12-Pack,400,02-01-2025,12,4800,No,5,Yes,0,Jan,No,400,Millennial
+C0319,30,Female,Kolkata,Retail,Social Media,Gin Fizz,12-Pack,400,18-02-2025,24,9600,No,4,Yes,0,Feb,Yes,400,Millennial
+C0320,23,Female,Pune,Online,Social Media,Long Island,Single,250,13-03-2025,1,250,No,5,Yes,27,Mar,No,250,Gen Z
+C0321,21,Male,Kolkata,Online,Social Media,Long Island,12-Pack,400,03-02-2025,12,4800,No,4,Yes,7,Feb,Yes,400,Gen Z
+C0322,44,Female,Delhi,Online,None,Long Island,4-Pack,350,25-03-2025,4,1400,No,4,No,0,Mar,Yes,350,Gen X
+C0323,27,Male,Bangalore,Retail,None,Gin Fizz,12-Pack,400,19-03-2025,12,4800,No,4,Yes,26,Mar,No,400,Millennial
+C0324,29,Female,Kolkata,Online,Email,Gin Fizz,Single,250,11-01-2025,1,250,No,4,Yes,9,Jan,No,250,Millennial
+C0325,35,Female,Pune,Retail,None,Cosmopolitan,Single,250,28-02-2025,1,250,No,5,No,0,Feb,Yes,250,Millennial
+C0326,37,Male,Pune,Online,Social Media,Gin Fizz,4-Pack,350,09-01-2025,4,1400,Yes,5,Yes,0,Jan,Yes,350,Gen X
+C0327,30,Male,Kolkata,Online,Social Media,Rum Punch,Single,250,22-05-2025,1,250,No,5,Yes,0,May,Yes,250,Millennial
+C0328,39,Female,Pune,Retail,Email,Margarita,12-Pack,400,15-01-2025,12,4800,Yes,4,No,0,Jan,No,400,Gen X
+C0329,34,Male,Delhi,Online,Social Media,Cosmopolitan,12-Pack,400,01-05-2025,12,4800,Yes,5,Yes,14,May,Yes,400,Millennial
+C0330,43,Male,Mumbai,Online,Email,Rum Punch,Single,250,16-03-2025,1,250,No,4,No,0,Mar,Yes,250,Gen X
+C0331,37,Male,Ahmedabad,Retail,Social Media,Gin Fizz,4-Pack,350,05-05-2025,4,1400,Yes,4,Yes,10,May,No,350,Gen X
+C0332,44,Female,Mumbai,Online,Social Media,Whisky Sour,Single,250,06-01-2025,1,250,No,3,Yes,0,Jan,No,250,Gen X
+C0333,29,Female,Hyderabad,Online,Social Media,Mojito,12-Pack,400,24-06-2025,24,9600,No,5,Yes,0,Jun,No,400,Millennial
+C0334,23,Female,Delhi,Online,Email,Rum Punch,Single,250,03-05-2025,1,250,No,3,No,0,May,Yes,250,Gen Z
+C0335,34,Male,Kolkata,Retail,None,Gin Fizz,4-Pack,350,10-05-2025,4,1400,No,5,Yes,0,May,Yes,350,Millennial
+C0336,21,Female,Pune,Online,Social Media,Cosmopolitan,Single,250,02-03-2025,1,250,No,5,No,0,Mar,Yes,250,Gen Z
+C0337,31,Male,Chennai,Retail,Social Media,Cosmopolitan,Single,250,12-03-2025,1,250,Yes,5,No,0,Mar,No,250,Millennial
+C0338,27,Male,Kolkata,Online,None,Cosmopolitan,12-Pack,400,23-01-2025,24,9600,No,4,Yes,7,Jan,Yes,400,Millennial
+C0339,41,Female,Ahmedabad,Online,Social Media,Long Island,4-Pack,350,25-05-2025,4,1400,No,4,Yes,0,May,Yes,350,Gen X
+C0340,29,Male,Chennai,Retail,Social Media,Long Island,Single,250,17-03-2025,1,250,No,5,No,0,Mar,No,250,Millennial
+C0341,35,Female,Chennai,Online,Email,Gin Fizz,4-Pack,350,13-01-2025,4,1400,No,4,No,0,Jan,No,350,Millennial
+C0342,28,Male,Hyderabad,Online,Email,Margarita,Single,250,02-01-2025,1,250,No,3,No,0,Jan,No,250,Millennial
+C0343,40,Female,Delhi,Online,Social Media,Margarita,Single,250,10-05-2025,1,250,Yes,4,Yes,0,May,Yes,250,Gen X
+C0344,30,Female,Chennai,Retail,Social Media,Long Island,4-Pack,350,27-06-2025,4,1400,No,3,No,0,Jun,No,350,Millennial
+C0345,39,Female,Hyderabad,Retail,Email,Margarita,Single,250,02-06-2025,1,250,Yes,5,Yes,16,Jun,No,250,Gen X
+C0346,36,Male,Kolkata,Online,Email,Cosmopolitan,Single,250,03-02-2025,1,250,Yes,3,Yes,16,Feb,No,250,Gen X
+C0347,42,Female,Chennai,Retail,Social Media,Whisky Sour,4-Pack,350,03-05-2025,4,1400,No,3,No,0,May,Yes,350,Gen X
+C0348,27,Male,Bangalore,Online,Social Media,Long Island,12-Pack,400,24-05-2025,12,4800,No,3,No,0,May,No,400,Millennial
+C0349,37,Female,Hyderabad,Online,Email,Mojito,Single,250,03-04-2025,1,250,No,3,No,0,Apr,No,250,Gen X
+C0350,24,Female,Ahmedabad,Online,Email,Rum Punch,Single,250,19-04-2025,1,250,No,4,No,0,Apr,Yes,250,Gen Z
+C0351,40,Male,Chennai,Online,Email,Cosmopolitan,12-Pack,400,11-03-2025,12,4800,No,3,No,0,Mar,Yes,400,Gen X
+C0352,31,Male,Chennai,Online,Social Media,Long Island,4-Pack,350,12-02-2025,4,1400,No,4,Yes,22,Feb,No,350,Millennial
+C0353,26,Female,Delhi,Online,Social Media,Rum Punch,Single,250,12-01-2025,1,250,No,4,Yes,0,Jan,No,250,Millennial
+C0354,28,Male,Mumbai,Online,Social Media,Gin Fizz,12-Pack,400,25-06-2025,12,4800,No,4,Yes,28,Jun,No,400,Millennial
+C0355,44,Female,Hyderabad,Retail,Social Media,Mojito,12-Pack,400,28-12-2024,12,4800,No,4,Yes,17,Dec,No,400,Gen X
+C0356,38,Female,Hyderabad,Retail,Social Media,Cosmopolitan,4-Pack,350,13-06-2025,4,1400,Yes,4,Yes,0,Jun,No,350,Gen X
+C0357,35,Female,Ahmedabad,Online,Email,Gin Fizz,Single,250,03-06-2025,1,250,No,5,Yes,11,Jun,Yes,250,Millennial
+C0358,41,Female,Kolkata,Retail,Email,Margarita,12-Pack,400,02-01-2025,12,4800,No,3,No,0,Jan,No,400,Gen X
+C0359,30,Male,Mumbai,Online,Social Media,Rum Punch,Single,250,18-05-2025,1,250,No,5,Yes,0,May,No,250,Millennial
+C0360,34,Male,Delhi,Online,Email,Cosmopolitan,12-Pack,400,09-01-2025,24,9600,Yes,4,Yes,9,Jan,Yes,400,Millennial
+C0361,42,Male,Kolkata,Retail,None,Rum Punch,Single,250,28-01-2025,1,250,No,4,Yes,15,Jan,No,250,Gen X
+C0362,43,Male,Kolkata,Online,Email,Rum Punch,Single,250,12-02-2025,1,250,Yes,3,Yes,8,Feb,No,250,Gen X
+C0363,38,Male,Kolkata,Online,Email,Long Island,Single,250,08-04-2025,1,250,No,5,No,0,Apr,Yes,250,Gen X
+C0364,35,Female,Hyderabad,Online,Social Media,Cosmopolitan,4-Pack,350,04-04-2025,4,1400,Yes,3,No,0,Apr,Yes,350,Millennial
+C0365,35,Female,Bangalore,Retail,Email,Rum Punch,12-Pack,400,06-02-2025,12,4800,No,5,No,0,Feb,No,400,Millennial
+C0366,30,Male,Ahmedabad,Online,Email,Gin Fizz,4-Pack,350,11-01-2025,8,2800,No,4,Yes,23,Jan,Yes,350,Millennial
+C0367,27,Female,Chennai,Online,Email,Long Island,Single,250,25-03-2025,1,250,No,5,Yes,23,Mar,No,250,Millennial
+C0368,37,Female,Mumbai,Retail,None,Long Island,4-Pack,350,08-01-2025,4,1400,No,4,No,0,Jan,No,350,Gen X
+C0369,42,Female,Bangalore,Retail,Email,Rum Punch,12-Pack,400,14-04-2025,12,4800,No,4,Yes,15,Apr,No,400,Gen X
+C0370,39,Female,Ahmedabad,Retail,Social Media,Gin Fizz,4-Pack,350,18-05-2025,4,1400,No,4,Yes,0,May,Yes,350,Gen X
+C0371,42,Female,Delhi,Online,Social Media,Gin Fizz,4-Pack,350,21-05-2025,4,1400,No,5,Yes,19,May,No,350,Gen X
+C0372,40,Female,Mumbai,Retail,Email,Rum Punch,Single,250,05-03-2025,1,250,Yes,4,Yes,0,Mar,Yes,250,Gen X
+C0373,40,Female,Ahmedabad,Online,Social Media,Mojito,12-Pack,400,14-05-2025,12,4800,No,5,Yes,8,May,Yes,400,Gen X
+C0374,36,Female,Chennai,Online,Email,Cosmopolitan,4-Pack,350,21-05-2025,4,1400,No,5,Yes,23,May,No,350,Gen X
+C0375,32,Male,Chennai,Retail,Social Media,Long Island,Single,250,20-03-2025,1,250,No,5,No,0,Mar,No,250,Millennial
+C0376,23,Male,Bangalore,Online,Email,Mojito,12-Pack,400,15-03-2025,12,4800,No,4,Yes,0,Mar,Yes,400,Gen Z
+C0377,28,Female,Kolkata,Online,Social Media,Gin Fizz,Single,250,25-02-2025,1,250,No,5,Yes,0,Feb,Yes,250,Millennial
+C0378,22,Male,Bangalore,Online,Social Media,Whisky Sour,4-Pack,350,10-06-2025,8,2800,No,4,Yes,0,Jun,No,350,Gen Z
+C0379,21,Male,Pune,Online,None,Margarita,4-Pack,350,15-06-2025,4,1400,No,5,Yes,27,Jun,No,350,Gen Z
+C0380,43,Male,Ahmedabad,Retail,Email,Cosmopolitan,4-Pack,350,25-01-2025,4,1400,Yes,4,Yes,0,Jan,No,350,Gen X
+C0381,23,Female,Bangalore,Retail,Email,Whisky Sour,12-Pack,400,14-01-2025,12,4800,No,4,Yes,0,Jan,No,400,Gen Z
+C0382,38,Male,Delhi,Retail,Social Media,Gin Fizz,4-Pack,350,02-04-2025,4,1400,Yes,5,Yes,16,Apr,No,350,Gen X
+C0383,23,Female,Bangalore,Online,Social Media,Rum Punch,Single,250,14-01-2025,1,250,No,5,No,0,Jan,No,250,Gen Z
+C0384,36,Female,Ahmedabad,Online,Social Media,Mojito,Single,250,26-01-2025,1,250,No,5,Yes,29,Jan,No,250,Gen X
+C0385,23,Female,Pune,Retail,Social Media,Gin Fizz,4-Pack,350,23-02-2025,4,1400,Yes,4,No,0,Feb,No,350,Gen Z
+C0386,31,Female,Delhi,Online,Email,Long Island,12-Pack,400,22-06-2025,12,4800,No,4,No,0,Jun,No,400,Millennial
+C0387,41,Male,Pune,Retail,Email,Margarita,12-Pack,400,14-01-2025,12,4800,No,3,No,0,Jan,No,400,Gen X
+C0388,43,Male,Ahmedabad,Retail,Social Media,Long Island,12-Pack,400,15-06-2025,12,4800,Yes,4,No,0,Jun,Yes,400,Gen X
+C0389,42,Female,Bangalore,Online,Email,Mojito,4-Pack,350,14-02-2025,4,1400,No,4,No,0,Feb,No,350,Gen X
+C0390,34,Male,Bangalore,Online,Email,Cosmopolitan,Single,250,05-02-2025,1,250,Yes,4,Yes,0,Feb,No,250,Millennial
+C0391,44,Male,Mumbai,Retail,None,Margarita,4-Pack,350,22-02-2025,4,1400,No,3,No,0,Feb,Yes,350,Gen X
+C0392,31,Male,Hyderabad,Online,Social Media,Rum Punch,4-Pack,350,06-01-2025,4,1400,No,5,No,0,Jan,No,350,Millennial
+C0393,27,Female,Bangalore,Online,None,Cosmopolitan,4-Pack,350,07-01-2025,4,1400,No,5,Yes,0,Jan,Yes,350,Millennial
+C0394,37,Male,Ahmedabad,Retail,None,Gin Fizz,4-Pack,350,26-05-2025,4,1400,Yes,4,Yes,0,May,No,350,Gen X
+C0395,30,Male,Ahmedabad,Retail,Social Media,Cosmopolitan,Single,250,18-06-2025,1,250,Yes,4,Yes,0,Jun,Yes,250,Millennial
+C0396,30,Male,Pune,Online,Social Media,Long Island,4-Pack,350,07-01-2025,8,2800,Yes,3,Yes,0,Jan,Yes,350,Millennial
+C0397,28,Female,Kolkata,Online,Social Media,Mojito,12-Pack,400,27-06-2025,12,4800,No,4,No,0,Jun,Yes,400,Millennial
+C0398,24,Male,Hyderabad,Online,Social Media,Gin Fizz,12-Pack,400,02-06-2025,12,4800,Yes,4,Yes,0,Jun,Yes,400,Gen Z
+C0399,26,Female,Mumbai,Retail,Social Media,Long Island,Single,250,06-03-2025,1,250,Yes,3,No,0,Mar,No,250,Millennial
+C0400,30,Male,Hyderabad,Retail,Social Media,Gin Fizz,4-Pack,350,25-06-2025,4,1400,No,4,No,0,Jun,No,350,Millennial
+C0401,35,Male,Ahmedabad,Online,Social Media,Gin Fizz,Single,250,26-06-2025,1,250,No,5,No,0,Jun,Yes,250,Millennial
+C0402,41,Female,Ahmedabad,Online,Email,Cosmopolitan,4-Pack,350,23-02-2025,4,1400,No,4,No,0,Feb,No,350,Gen X
+C0403,43,Female,Bangalore,Retail,Social Media,Mojito,4-Pack,350,07-04-2025,8,2800,No,5,Yes,19,Apr,No,350,Gen X
+C0404,34,Female,Delhi,Retail,Social Media,Rum Punch,4-Pack,350,08-03-2025,4,1400,No,3,No,0,Mar,Yes,350,Millennial
+C0405,23,Male,Pune,Online,Social Media,Whisky Sour,12-Pack,400,13-05-2025,12,4800,No,5,Yes,0,May,Yes,400,Gen Z
+C0406,30,Female,Chennai,Online,Social Media,Rum Punch,4-Pack,350,05-06-2025,4,1400,No,3,No,0,Jun,Yes,350,Millennial
+C0407,41,Male,Ahmedabad,Retail,Social Media,Mojito,Single,250,09-06-2025,1,250,Yes,5,No,0,Jun,No,250,Gen X
+C0408,33,Male,Bangalore,Online,Social Media,Mojito,4-Pack,350,21-05-2025,4,1400,Yes,4,No,0,May,No,350,Millennial
+C0409,28,Female,Pune,Online,Social Media,Rum Punch,12-Pack,400,01-06-2025,12,4800,No,5,Yes,0,Jun,No,400,Millennial
+C0410,37,Female,Mumbai,Retail,None,Long Island,Single,250,18-01-2025,1,250,No,4,No,0,Jan,No,250,Gen X
+C0411,36,Male,Hyderabad,Online,Email,Cosmopolitan,4-Pack,350,11-02-2025,8,2800,No,4,Yes,0,Feb,No,350,Gen X
+C0412,40,Female,Ahmedabad,Retail,None,Cosmopolitan,4-Pack,350,24-05-2025,4,1400,Yes,4,Yes,0,May,No,350,Gen X
+C0413,28,Male,Pune,Online,Social Media,Long Island,Single,250,30-12-2024,1,250,No,4,No,0,Dec,Yes,250,Millennial
+C0414,37,Female,Delhi,Online,Email,Mojito,12-Pack,400,24-02-2025,12,4800,No,4,Yes,0,Feb,No,400,Gen X
+C0415,28,Male,Mumbai,Retail,Social Media,Long Island,Single,250,04-04-2025,1,250,Yes,5,No,0,Apr,No,250,Millennial
+C0416,37,Female,Kolkata,Retail,Social Media,Cosmopolitan,Single,250,12-03-2025,1,250,No,4,Yes,0,Mar,No,250,Gen X
+C0417,24,Male,Kolkata,Retail,Social Media,Rum Punch,4-Pack,350,14-02-2025,4,1400,No,5,Yes,0,Feb,Yes,350,Gen Z
+C0418,21,Male,Bangalore,Online,None,Whisky Sour,4-Pack,350,06-06-2025,8,2800,No,4,Yes,15,Jun,Yes,350,Gen Z
+C0419,32,Female,Bangalore,Online,Social Media,Margarita,4-Pack,350,05-03-2025,8,2800,Yes,3,Yes,0,Mar,No,350,Millennial
+C0420,28,Male,Hyderabad,Online,None,Margarita,12-Pack,400,19-01-2025,12,4800,Yes,3,Yes,0,Jan,No,400,Millennial
+C0421,22,Female,Hyderabad,Retail,Social Media,Long Island,4-Pack,350,18-04-2025,4,1400,Yes,3,No,0,Apr,No,350,Gen Z
+C0422,23,Female,Chennai,Online,Social Media,Rum Punch,12-Pack,400,15-03-2025,12,4800,No,4,Yes,0,Mar,Yes,400,Gen Z
+C0423,40,Female,Kolkata,Retail,Email,Mojito,4-Pack,350,09-02-2025,4,1400,No,3,Yes,0,Feb,No,350,Gen X
+C0424,41,Male,Ahmedabad,Retail,Email,Rum Punch,4-Pack,350,15-01-2025,8,2800,No,4,Yes,29,Jan,No,350,Gen X
+C0425,25,Female,Bangalore,Online,Social Media,Gin Fizz,Single,250,12-05-2025,1,250,Yes,4,Yes,0,May,No,250,Gen Z
+C0426,39,Male,Kolkata,Retail,Email,Margarita,Single,250,04-04-2025,1,250,Yes,4,Yes,0,Apr,No,250,Gen X
+C0427,29,Male,Delhi,Online,Email,Margarita,Single,250,01-04-2025,1,250,Yes,3,Yes,7,Apr,Yes,250,Millennial
+C0428,25,Female,Delhi,Retail,Social Media,Long Island,4-Pack,350,03-03-2025,4,1400,No,5,Yes,0,Mar,Yes,350,Gen Z
+C0429,35,Male,Mumbai,Online,Email,Rum Punch,Single,250,03-03-2025,1,250,No,4,No,0,Mar,No,250,Millennial
+C0430,34,Female,Ahmedabad,Online,None,Cosmopolitan,12-Pack,400,27-06-2025,12,4800,No,4,No,0,Jun,Yes,400,Millennial
+C0431,42,Female,Pune,Online,Social Media,Margarita,4-Pack,350,07-03-2025,8,2800,Yes,4,No,0,Mar,No,350,Gen X
+C0432,24,Female,Mumbai,Online,Email,Gin Fizz,Single,250,20-06-2025,1,250,No,3,No,0,Jun,No,250,Gen Z
+C0433,32,Female,Mumbai,Retail,Email,Whisky Sour,Single,250,12-06-2025,1,250,No,5,Yes,30,Jun,No,250,Millennial
+C0434,27,Male,Hyderabad,Online,Social Media,Gin Fizz,Single,250,13-01-2025,1,250,No,4,No,0,Jan,Yes,250,Millennial
+C0435,35,Male,Bangalore,Online,Email,Margarita,Single,250,16-02-2025,1,250,No,3,Yes,0,Feb,No,250,Millennial
+C0436,42,Male,Mumbai,Online,None,Gin Fizz,Single,250,10-06-2025,1,250,Yes,5,Yes,18,Jun,Yes,250,Gen X
+C0437,36,Female,Ahmedabad,Online,Email,Mojito,4-Pack,350,19-05-2025,4,1400,No,5,No,0,May,Yes,350,Gen X
+C0438,25,Female,Bangalore,Online,None,Mojito,Single,250,21-06-2025,1,250,Yes,5,Yes,0,Jun,Yes,250,Gen Z
+C0439,29,Female,Mumbai,Online,Email,Cosmopolitan,Single,250,18-04-2025,1,250,Yes,4,Yes,0,Apr,No,250,Millennial
+C0440,24,Male,Chennai,Online,Social Media,Long Island,12-Pack,400,18-02-2025,12,4800,No,3,No,0,Feb,No,400,Gen Z
+C0441,33,Female,Hyderabad,Retail,Social Media,Margarita,4-Pack,350,17-04-2025,4,1400,No,3,No,0,Apr,Yes,350,Millennial
+C0442,39,Male,Chennai,Retail,Social Media,Cosmopolitan,4-Pack,350,20-02-2025,8,2800,No,3,No,0,Feb,No,350,Gen X
+C0443,30,Female,Kolkata,Retail,Social Media,Rum Punch,Single,250,08-04-2025,1,250,Yes,3,No,0,Apr,No,250,Millennial
+C0444,22,Female,Kolkata,Online,Social Media,Mojito,12-Pack,400,13-06-2025,24,9600,Yes,4,Yes,0,Jun,Yes,400,Gen Z
+C0445,38,Female,Hyderabad,Online,Social Media,Rum Punch,4-Pack,350,06-03-2025,4,1400,Yes,4,Yes,18,Mar,Yes,350,Gen X
+C0446,36,Male,Kolkata,Retail,Social Media,Long Island,4-Pack,350,22-05-2025,4,1400,Yes,4,Yes,14,May,Yes,350,Gen X
+C0447,43,Male,Pune,Online,Social Media,Long Island,4-Pack,350,28-02-2025,4,1400,No,4,Yes,0,Feb,No,350,Gen X
+C0448,36,Female,Mumbai,Online,Social Media,Rum Punch,4-Pack,350,08-06-2025,4,1400,Yes,4,No,0,Jun,No,350,Gen X
+C0449,25,Male,Bangalore,Retail,Social Media,Long Island,4-Pack,350,27-06-2025,4,1400,Yes,4,Yes,0,Jun,No,350,Gen Z
+C0450,26,Female,Delhi,Online,Social Media,Margarita,Single,250,02-01-2025,1,250,Yes,5,Yes,25,Jan,No,250,Millennial
+C0451,31,Female,Chennai,Retail,Social Media,Mojito,12-Pack,400,26-01-2025,24,9600,Yes,4,Yes,0,Jan,No,400,Millennial
+C0452,40,Male,Chennai,Retail,None,Cosmopolitan,Single,250,06-06-2025,1,250,Yes,5,Yes,10,Jun,No,250,Gen X
+C0453,33,Male,Hyderabad,Retail,Social Media,Margarita,12-Pack,400,11-02-2025,24,9600,No,4,Yes,25,Feb,No,400,Millennial
+C0454,22,Male,Hyderabad,Online,Social Media,Margarita,4-Pack,350,22-05-2025,4,1400,No,4,Yes,0,May,No,350,Gen Z
+C0455,43,Male,Delhi,Online,Email,Long Island,4-Pack,350,06-05-2025,4,1400,No,4,Yes,0,May,No,350,Gen X
+C0456,27,Female,Kolkata,Online,None,Rum Punch,Single,250,25-05-2025,1,250,Yes,5,No,0,May,No,250,Millennial
+C0457,32,Male,Bangalore,Online,None,Cosmopolitan,12-Pack,400,04-01-2025,12,4800,Yes,3,No,0,Jan,Yes,400,Millennial
+C0458,30,Male,Pune,Retail,Social Media,Mojito,4-Pack,350,22-04-2025,4,1400,Yes,3,Yes,28,Apr,No,350,Millennial
+C0459,31,Male,Hyderabad,Online,None,Rum Punch,Single,250,31-03-2025,1,250,No,4,Yes,0,Mar,Yes,250,Millennial
+C0460,22,Female,Hyderabad,Retail,Social Media,Mojito,4-Pack,350,05-02-2025,4,1400,No,4,No,0,Feb,No,350,Gen Z
+C0461,22,Male,Ahmedabad,Online,None,Gin Fizz,4-Pack,350,30-05-2025,4,1400,No,3,Yes,0,May,Yes,350,Gen Z
+C0462,32,Male,Pune,Online,None,Margarita,12-Pack,400,01-04-2025,12,4800,No,5,No,0,Apr,Yes,400,Millennial
+C0463,33,Female,Pune,Retail,None,Rum Punch,Single,250,06-02-2025,1,250,Yes,4,Yes,10,Feb,No,250,Millennial
+C0464,34,Female,Ahmedabad,Online,Social Media,Long Island,4-Pack,350,20-06-2025,8,2800,No,3,Yes,0,Jun,No,350,Millennial
+C0465,42,Female,Pune,Retail,Email,Whisky Sour,Single,250,20-05-2025,1,250,No,5,No,0,May,Yes,250,Gen X
+C0466,21,Female,Mumbai,Online,Social Media,Gin Fizz,4-Pack,350,25-01-2025,4,1400,Yes,5,No,0,Jan,No,350,Gen Z
+C0467,25,Male,Delhi,Online,Social Media,Long Island,4-Pack,350,08-04-2025,4,1400,No,4,Yes,29,Apr,Yes,350,Gen Z
+C0468,43,Female,Bangalore,Online,None,Long Island,12-Pack,400,19-06-2025,12,4800,Yes,3,No,0,Jun,No,400,Gen X
+C0469,41,Male,Bangalore,Online,Social Media,Gin Fizz,4-Pack,350,29-12-2024,4,1400,Yes,3,No,0,Dec,Yes,350,Gen X
+C0470,32,Male,Hyderabad,Retail,Email,Whisky Sour,4-Pack,350,19-02-2025,8,2800,No,5,No,0,Feb,Yes,350,Millennial
+C0471,42,Male,Hyderabad,Online,Social Media,Margarita,4-Pack,350,02-02-2025,4,1400,Yes,4,Yes,0,Feb,Yes,350,Gen X
+C0472,33,Male,Pune,Online,Social Media,Margarita,Single,250,04-03-2025,1,250,Yes,4,Yes,20,Mar,No,250,Millennial
+C0473,31,Female,Mumbai,Online,Social Media,Rum Punch,4-Pack,350,30-12-2024,4,1400,Yes,4,No,0,Dec,No,350,Millennial
+C0474,40,Female,Chennai,Retail,Social Media,Cosmopolitan,4-Pack,350,08-06-2025,4,1400,Yes,5,Yes,17,Jun,No,350,Gen X
+C0475,34,Female,Mumbai,Retail,None,Rum Punch,12-Pack,400,09-02-2025,12,4800,Yes,5,No,0,Feb,No,400,Millennial
+C0476,27,Female,Kolkata,Online,Social Media,Margarita,12-Pack,400,29-03-2025,12,4800,Yes,4,No,0,Mar,Yes,400,Millennial
+C0477,42,Female,Ahmedabad,Online,Social Media,Whisky Sour,Single,250,21-02-2025,1,250,Yes,4,Yes,0,Feb,No,250,Gen X
+C0478,33,Male,Kolkata,Online,None,Mojito,4-Pack,350,11-01-2025,4,1400,No,4,No,0,Jan,Yes,350,Millennial
+C0479,43,Female,Ahmedabad,Online,Email,Cosmopolitan,Single,250,13-02-2025,1,250,Yes,3,Yes,22,Feb,Yes,250,Gen X
+C0480,40,Female,Delhi,Online,Social Media,Rum Punch,4-Pack,350,20-02-2025,4,1400,No,4,Yes,0,Feb,Yes,350,Gen X
+C0481,23,Female,Mumbai,Online,Social Media,Rum Punch,Single,250,11-03-2025,1,250,No,4,Yes,0,Mar,Yes,250,Gen Z
+C0482,36,Male,Pune,Online,None,Mojito,Single,250,06-06-2025,1,250,No,4,Yes,22,Jun,No,250,Gen X
+C0483,42,Male,Mumbai,Online,Email,Cosmopolitan,12-Pack,400,07-05-2025,12,4800,Yes,5,Yes,0,May,Yes,400,Gen X
+C0484,26,Female,Chennai,Retail,None,Long Island,4-Pack,350,03-03-2025,4,1400,No,3,No,0,Mar,Yes,350,Millennial
+C0485,32,Female,Ahmedabad,Retail,Social Media,Rum Punch,12-Pack,400,05-05-2025,12,4800,No,4,Yes,0,May,No,400,Millennial
+C0486,41,Female,Chennai,Online,Social Media,Cosmopolitan,Single,250,07-01-2025,1,250,No,5,No,0,Jan,No,250,Gen X
+C0487,31,Female,Chennai,Retail,Email,Gin Fizz,Single,250,31-03-2025,1,250,No,4,No,0,Mar,No,250,Millennial
+C0488,43,Male,Bangalore,Online,Social Media,Gin Fizz,12-Pack,400,21-02-2025,12,4800,No,4,No,0,Feb,No,400,Gen X
+C0489,33,Male,Delhi,Retail,None,Mojito,4-Pack,350,05-04-2025,4,1400,No,4,Yes,13,Apr,Yes,350,Millennial
+C0490,23,Female,Delhi,Online,Social Media,Gin Fizz,Single,250,03-03-2025,1,250,Yes,4,Yes,25,Mar,Yes,250,Gen Z
+C0491,43,Female,Pune,Online,Social Media,Gin Fizz,Single,250,25-03-2025,1,250,Yes,4,Yes,0,Mar,Yes,250,Gen X
+C0492,34,Male,Ahmedabad,Retail,Social Media,Rum Punch,Single,250,28-05-2025,1,250,Yes,3,No,0,May,No,250,Millennial
+C0493,21,Male,Mumbai,Online,Email,Gin Fizz,4-Pack,350,21-03-2025,4,1400,No,5,No,0,Mar,No,350,Gen Z
+C0494,34,Female,Hyderabad,Online,Social Media,Margarita,12-Pack,400,05-03-2025,12,4800,No,3,No,0,Mar,No,400,Millennial
+C0495,38,Male,Pune,Retail,Social Media,Gin Fizz,Single,250,12-04-2025,1,250,Yes,5,Yes,0,Apr,Yes,250,Gen X
+C0496,34,Female,Ahmedabad,Retail,Social Media,Margarita,12-Pack,400,14-03-2025,12,4800,No,3,No,0,Mar,Yes,400,Millennial
+C0497,40,Male,Bangalore,Online,Email,Mojito,4-Pack,350,26-03-2025,4,1400,No,5,Yes,24,Mar,Yes,350,Gen X
+C0498,31,Male,Chennai,Retail,Social Media,Long Island,4-Pack,350,28-01-2025,8,2800,No,4,No,0,Jan,No,350,Millennial
+C0499,42,Male,Bangalore,Online,Email,Mojito,Single,250,28-05-2025,1,250,No,4,Yes,0,May,No,250,Gen X
+C0500,37,Female,Ahmedabad,Retail,None,Long Island,4-Pack,350,03-03-2025,4,1400,No,4,Yes,0,Mar,No,350,Gen X
+C0501,23,Male,Pune,Online,Social Media,Whisky Sour,Single,250,15-03-2025,1,250,No,5,No,0,Mar,No,250,Gen Z
+C0502,21,Female,Pune,Online,Social Media,Long Island,4-Pack,350,28-01-2025,4,1400,No,5,Yes,21,Jan,No,350,Gen Z
+C0503,27,Female,Bangalore,Online,Email,Mojito,Single,250,21-04-2025,1,250,No,3,No,0,Apr,No,250,Millennial
+C0504,40,Female,Bangalore,Retail,Social Media,Mojito,4-Pack,350,07-04-2025,4,1400,Yes,4,Yes,23,Apr,Yes,350,Gen X
+C0505,42,Female,Ahmedabad,Online,Email,Margarita,4-Pack,350,27-02-2025,4,1400,Yes,4,Yes,0,Feb,Yes,350,Gen X
+C0506,34,Male,Ahmedabad,Online,Social Media,Gin Fizz,4-Pack,350,20-06-2025,4,1400,Yes,5,Yes,30,Jun,Yes,350,Millennial
+C0507,21,Female,Pune,Online,Social Media,Cosmopolitan,12-Pack,400,20-06-2025,12,4800,No,4,No,0,Jun,No,400,Gen Z
+C0508,36,Male,Bangalore,Online,Social Media,Cosmopolitan,Single,250,17-06-2025,1,250,Yes,3,No,0,Jun,Yes,250,Gen X
+C0509,33,Female,Pune,Online,Social Media,Cosmopolitan,4-Pack,350,21-06-2025,4,1400,Yes,3,No,0,Jun,Yes,350,Millennial
+C0510,44,Female,Pune,Online,None,Mojito,Single,250,27-01-2025,1,250,No,4,No,0,Jan,No,250,Gen X
+C0511,36,Male,Chennai,Online,Email,Rum Punch,4-Pack,350,25-06-2025,4,1400,No,5,No,0,Jun,Yes,350,Gen X
+C0512,33,Male,Ahmedabad,Retail,Social Media,Mojito,12-Pack,400,19-03-2025,12,4800,Yes,5,Yes,9,Mar,Yes,400,Millennial
+C0513,33,Female,Kolkata,Online,Social Media,Margarita,Single,250,26-04-2025,1,250,No,3,No,0,Apr,No,250,Millennial
+C0514,43,Female,Bangalore,Retail,None,Cosmopolitan,Single,250,14-05-2025,1,250,No,4,No,0,May,Yes,250,Gen X
+C0515,38,Female,Bangalore,Online,Social Media,Mojito,Single,250,22-06-2025,1,250,No,4,No,0,Jun,No,250,Gen X
+C0516,23,Female,Delhi,Online,Social Media,Rum Punch,4-Pack,350,30-01-2025,4,1400,Yes,4,Yes,0,Jan,No,350,Gen Z
+C0517,44,Female,Pune,Retail,Email,Mojito,Single,250,22-02-2025,1,250,No,3,No,0,Feb,No,250,Gen X
+C0518,39,Female,Ahmedabad,Retail,None,Rum Punch,Single,250,28-01-2025,1,250,No,3,No,0,Jan,No,250,Gen X
+C0519,37,Male,Delhi,Online,None,Gin Fizz,12-Pack,400,26-04-2025,12,4800,Yes,4,No,0,Apr,No,400,Gen X
+C0520,43,Female,Chennai,Online,Email,Margarita,4-Pack,350,10-05-2025,4,1400,Yes,5,No,0,May,Yes,350,Gen X
+C0521,36,Female,Ahmedabad,Online,Email,Long Island,4-Pack,350,30-04-2025,4,1400,No,4,No,0,Apr,Yes,350,Gen X
+C0522,21,Male,Delhi,Online,Social Media,Mojito,4-Pack,350,18-03-2025,4,1400,No,4,No,0,Mar,No,350,Gen Z
+C0523,36,Male,Hyderabad,Retail,Social Media,Long Island,Single,250,18-03-2025,1,250,No,4,Yes,10,Mar,No,250,Gen X
+C0524,37,Male,Hyderabad,Online,None,Margarita,12-Pack,400,19-01-2025,12,4800,Yes,5,No,0,Jan,No,400,Gen X
+C0525,37,Male,Bangalore,Online,Social Media,Long Island,4-Pack,350,07-04-2025,4,1400,Yes,3,No,0,Apr,No,350,Gen X
+C0526,43,Male,Hyderabad,Online,Social Media,Gin Fizz,12-Pack,400,21-03-2025,12,4800,No,4,Yes,26,Mar,Yes,400,Gen X
+C0527,22,Male,Chennai,Online,Social Media,Rum Punch,Single,250,05-04-2025,1,250,No,4,No,0,Apr,No,250,Gen Z
+C0528,26,Female,Delhi,Online,Social Media,Margarita,4-Pack,350,14-03-2025,4,1400,No,4,Yes,0,Mar,Yes,350,Millennial
+C0529,36,Female,Ahmedabad,Retail,Email,Margarita,Single,250,01-06-2025,1,250,Yes,3,No,0,Jun,No,250,Gen X
+C0530,26,Male,Hyderabad,Online,None,Gin Fizz,Single,250,12-03-2025,1,250,Yes,4,Yes,15,Mar,No,250,Millennial
+C0531,22,Female,Hyderabad,Online,None,Rum Punch,12-Pack,400,17-01-2025,12,4800,Yes,3,Yes,24,Jan,No,400,Gen Z
+C0532,21,Female,Ahmedabad,Retail,Social Media,Cosmopolitan,Single,250,11-05-2025,1,250,Yes,5,No,0,May,Yes,250,Gen Z
+C0533,43,Female,Kolkata,Online,None,Margarita,Single,250,09-03-2025,1,250,Yes,3,Yes,0,Mar,No,250,Gen X
+C0534,33,Male,Pune,Retail,Email,Mojito,12-Pack,400,25-02-2025,24,9600,No,4,Yes,0,Feb,Yes,400,Millennial
+C0535,27,Female,Mumbai,Online,None,Long Island,4-Pack,350,09-03-2025,4,1400,No,5,No,0,Mar,Yes,350,Millennial
+C0536,41,Male,Hyderabad,Online,None,Gin Fizz,Single,250,01-06-2025,1,250,No,3,Yes,0,Jun,Yes,250,Gen X
+C0537,28,Male,Pune,Online,Social Media,Gin Fizz,Single,250,22-01-2025,1,250,Yes,3,No,0,Jan,Yes,250,Millennial
+C0538,23,Male,Mumbai,Online,Social Media,Rum Punch,12-Pack,400,20-05-2025,12,4800,No,4,No,0,May,Yes,400,Gen Z
+C0539,38,Female,Delhi,Online,Social Media,Margarita,Single,250,28-04-2025,1,250,Yes,5,Yes,30,Apr,Yes,250,Gen X
+C0540,32,Female,Mumbai,Online,Email,Long Island,Single,250,23-04-2025,1,250,No,3,Yes,7,Apr,No,250,Millennial
+C0541,36,Male,Pune,Online,None,Gin Fizz,Single,250,22-04-2025,1,250,No,5,No,0,Apr,No,250,Gen X
+C0542,43,Male,Pune,Retail,Email,Margarita,4-Pack,350,09-02-2025,8,2800,No,5,Yes,0,Feb,Yes,350,Gen X
+C0543,37,Male,Bangalore,Online,Email,Rum Punch,4-Pack,350,05-04-2025,4,1400,Yes,4,Yes,0,Apr,No,350,Gen X
+C0544,43,Female,Bangalore,Retail,Social Media,Long Island,Single,250,21-02-2025,1,250,No,5,No,0,Feb,No,250,Gen X
+C0545,25,Male,Chennai,Online,Email,Long Island,Single,250,01-01-2025,1,250,No,4,No,0,Jan,Yes,250,Gen Z
+C0546,35,Female,Bangalore,Retail,Email,Long Island,4-Pack,350,31-12-2024,4,1400,No,5,No,0,Dec,No,350,Millennial
+C0547,29,Male,Mumbai,Online,Social Media,Rum Punch,4-Pack,350,29-05-2025,4,1400,Yes,4,No,0,May,Yes,350,Millennial
+C0548,37,Female,Chennai,Online,None,Rum Punch,4-Pack,350,01-04-2025,4,1400,No,4,Yes,0,Apr,No,350,Gen X
+C0549,38,Female,Hyderabad,Online,Social Media,Gin Fizz,4-Pack,350,13-03-2025,4,1400,Yes,4,Yes,7,Mar,Yes,350,Gen X
+C0550,25,Male,Ahmedabad,Online,Social Media,Margarita,Single,250,16-05-2025,1,250,No,4,Yes,30,May,No,250,Gen Z
+C0551,44,Female,Kolkata,Online,None,Margarita,Single,250,28-01-2025,1,250,No,4,No,0,Jan,No,250,Gen X
+C0552,43,Female,Pune,Online,Social Media,Cosmopolitan,12-Pack,400,23-04-2025,12,4800,Yes,4,Yes,20,Apr,Yes,400,Gen X
+C0553,24,Male,Pune,Retail,Email,Mojito,4-Pack,350,15-03-2025,8,2800,Yes,4,Yes,11,Mar,No,350,Gen Z
+C0554,40,Male,Hyderabad,Online,Email,Long Island,Single,250,14-06-2025,1,250,No,5,Yes,0,Jun,No,250,Gen X
+C0555,32,Female,Mumbai,Retail,None,Rum Punch,Single,250,19-02-2025,1,250,No,5,Yes,0,Feb,No,250,Millennial
+C0556,27,Male,Chennai,Online,Email,Gin Fizz,Single,250,11-03-2025,1,250,No,4,Yes,0,Mar,Yes,250,Millennial
+C0557,28,Female,Chennai,Retail,Social Media,Long Island,4-Pack,350,31-01-2025,4,1400,No,4,Yes,13,Jan,No,350,Millennial
+C0558,33,Female,Pune,Online,Social Media,Cosmopolitan,4-Pack,350,27-03-2025,4,1400,No,5,Yes,18,Mar,No,350,Millennial
+C0559,44,Female,Ahmedabad,Retail,Email,Rum Punch,4-Pack,350,23-04-2025,4,1400,Yes,3,No,0,Apr,Yes,350,Gen X
+C0560,37,Female,Delhi,Retail,Email,Rum Punch,Single,250,11-01-2025,1,250,No,4,No,0,Jan,No,250,Gen X
+C0561,24,Male,Pune,Online,Social Media,Whisky Sour,12-Pack,400,18-02-2025,12,4800,No,3,Yes,26,Feb,No,400,Gen Z
+C0562,41,Female,Mumbai,Online,Social Media,Rum Punch,12-Pack,400,02-03-2025,12,4800,No,3,No,0,Mar,No,400,Gen X
+C0563,31,Male,Hyderabad,Online,None,Mojito,4-Pack,350,03-01-2025,4,1400,Yes,3,Yes,0,Jan,Yes,350,Millennial
+C0564,31,Female,Bangalore,Retail,None,Gin Fizz,4-Pack,350,03-01-2025,4,1400,Yes,4,Yes,0,Jan,No,350,Millennial
+C0565,30,Female,Kolkata,Retail,Social Media,Long Island,Single,250,28-12-2024,1,250,No,4,No,0,Dec,Yes,250,Millennial
+C0566,30,Female,Kolkata,Retail,None,Whisky Sour,4-Pack,350,08-04-2025,4,1400,Yes,5,Yes,25,Apr,No,350,Millennial
+C0567,32,Female,Delhi,Online,Email,Rum Punch,Single,250,23-01-2025,1,250,No,3,No,0,Jan,Yes,250,Millennial
+C0568,30,Female,Hyderabad,Online,Email,Rum Punch,4-Pack,350,23-03-2025,4,1400,No,4,No,0,Mar,No,350,Millennial
+C0569,27,Male,Pune,Online,Email,Rum Punch,12-Pack,400,21-03-2025,24,9600,Yes,5,Yes,12,Mar,No,400,Millennial
+C0570,26,Male,Mumbai,Online,Social Media,Mojito,12-Pack,400,03-05-2025,12,4800,No,4,Yes,0,May,No,400,Millennial
+C0571,40,Female,Pune,Retail,Social Media,Rum Punch,Single,250,30-05-2025,1,250,No,5,Yes,17,May,Yes,250,Gen X
+C0572,40,Female,Kolkata,Online,Social Media,Mojito,4-Pack,350,07-02-2025,4,1400,No,4,Yes,0,Feb,No,350,Gen X
+C0573,39,Male,Pune,Online,Email,Margarita,Single,250,29-04-2025,1,250,Yes,3,No,0,Apr,Yes,250,Gen X
+C0574,40,Female,Bangalore,Retail,None,Mojito,4-Pack,350,17-05-2025,4,1400,Yes,4,No,0,May,No,350,Gen X
+C0575,39,Female,Ahmedabad,Online,Social Media,Whisky Sour,Single,250,07-02-2025,1,250,Yes,4,Yes,24,Feb,No,250,Gen X
+C0576,42,Male,Pune,Online,Social Media,Mojito,12-Pack,400,29-01-2025,12,4800,No,3,Yes,24,Jan,No,400,Gen X
+C0577,32,Female,Ahmedabad,Online,Email,Rum Punch,12-Pack,400,11-06-2025,12,4800,Yes,4,No,0,Jun,No,400,Millennial
+C0578,25,Male,Bangalore,Online,Social Media,Cosmopolitan,4-Pack,350,09-05-2025,4,1400,Yes,5,Yes,0,May,No,350,Gen Z
+C0579,23,Female,Delhi,Online,Social Media,Margarita,4-Pack,350,17-01-2025,4,1400,Yes,4,Yes,0,Jan,Yes,350,Gen Z
+C0580,37,Male,Ahmedabad,Retail,Social Media,Cosmopolitan,Single,250,25-04-2025,1,250,Yes,5,Yes,22,Apr,Yes,250,Gen X
+C0581,32,Female,Kolkata,Online,None,Long Island,12-Pack,400,26-04-2025,12,4800,No,5,Yes,30,Apr,Yes,400,Millennial
+C0582,34,Male,Delhi,Online,Social Media,Long Island,4-Pack,350,11-02-2025,4,1400,Yes,4,No,0,Feb,Yes,350,Millennial
+C0583,29,Male,Pune,Retail,None,Margarita,Single,250,22-01-2025,1,250,No,5,Yes,0,Jan,Yes,250,Millennial
+C0584,32,Male,Ahmedabad,Retail,None,Mojito,Single,250,03-05-2025,1,250,Yes,4,Yes,11,May,No,250,Millennial
+C0585,41,Female,Pune,Online,None,Cosmopolitan,Single,250,18-04-2025,1,250,Yes,5,Yes,15,Apr,No,250,Gen X
+C0586,35,Male,Ahmedabad,Online,None,Cosmopolitan,Single,250,26-01-2025,1,250,Yes,4,No,0,Jan,Yes,250,Millennial
+C0587,44,Female,Kolkata,Online,None,Gin Fizz,Single,250,07-02-2025,1,250,No,4,Yes,23,Feb,No,250,Gen X
+C0588,27,Female,Pune,Online,None,Gin Fizz,Single,250,25-03-2025,1,250,No,4,No,0,Mar,Yes,250,Millennial
+C0589,31,Male,Bangalore,Online,None,Long Island,4-Pack,350,03-04-2025,4,1400,No,5,Yes,0,Apr,No,350,Millennial
+C0590,42,Male,Ahmedabad,Retail,None,Margarita,12-Pack,400,13-04-2025,12,4800,Yes,3,No,0,Apr,No,400,Gen X
+C0591,43,Female,Chennai,Online,Social Media,Mojito,12-Pack,400,11-02-2025,12,4800,No,4,No,0,Feb,No,400,Gen X
+C0592,33,Female,Delhi,Online,Social Media,Whisky Sour,Single,250,06-02-2025,1,250,No,4,Yes,18,Feb,Yes,250,Millennial
+C0593,22,Male,Hyderabad,Retail,Social Media,Long Island,4-Pack,350,11-06-2025,4,1400,Yes,4,Yes,25,Jun,Yes,350,Gen Z
+C0594,37,Female,Pune,Online,Social Media,Long Island,Single,250,06-04-2025,1,250,Yes,5,Yes,26,Apr,No,250,Gen X
+C0595,31,Female,Pune,Online,Email,Rum Punch,Single,250,23-06-2025,1,250,No,5,Yes,0,Jun,No,250,Millennial
+C0596,30,Male,Hyderabad,Online,None,Gin Fizz,4-Pack,350,07-04-2025,4,1400,No,3,No,0,Apr,Yes,350,Millennial
+C0597,26,Male,Mumbai,Online,None,Cosmopolitan,Single,250,22-06-2025,1,250,No,4,Yes,7,Jun,No,250,Millennial
+C0598,30,Female,Hyderabad,Online,Social Media,Rum Punch,Single,250,15-01-2025,1,250,No,4,Yes,0,Jan,Yes,250,Millennial
+C0599,41,Female,Bangalore,Online,Email,Mojito,Single,250,02-01-2025,1,250,Yes,4,No,0,Jan,No,250,Gen X
+C0600,39,Female,Bangalore,Retail,Social Media,Gin Fizz,Single,250,16-01-2025,1,250,No,4,Yes,0,Jan,No,250,Gen X
+C0601,24,Female,Hyderabad,Retail,Social Media,Rum Punch,12-Pack,400,18-05-2025,24,9600,Yes,5,Yes,0,May,Yes,400,Gen Z
+C0602,32,Female,Ahmedabad,Retail,Social Media,Cosmopolitan,Single,250,22-06-2025,1,250,Yes,4,Yes,0,Jun,Yes,250,Millennial
+C0603,44,Male,Ahmedabad,Retail,Social Media,Long Island,12-Pack,400,13-01-2025,12,4800,Yes,3,No,0,Jan,No,400,Gen X
+C0604,39,Male,Mumbai,Online,Email,Cosmopolitan,Single,250,08-06-2025,1,250,No,4,Yes,0,Jun,No,250,Gen X
+C0605,36,Male,Bangalore,Retail,Email,Whisky Sour,12-Pack,400,17-04-2025,12,4800,No,5,Yes,8,Apr,Yes,400,Gen X
+C0606,26,Male,Mumbai,Online,Email,Gin Fizz,4-Pack,350,14-02-2025,4,1400,No,4,Yes,10,Feb,No,350,Millennial
+C0607,32,Female,Pune,Online,Social Media,Cosmopolitan,Single,250,13-01-2025,1,250,Yes,4,Yes,0,Jan,Yes,250,Millennial
+C0608,27,Female,Kolkata,Online,Social Media,Whisky Sour,Single,250,16-02-2025,1,250,Yes,4,No,0,Feb,No,250,Millennial
+C0609,30,Female,Ahmedabad,Online,Email,Margarita,4-Pack,350,13-03-2025,4,1400,Yes,5,Yes,13,Mar,Yes,350,Millennial
+C0610,38,Female,Mumbai,Online,Email,Long Island,Single,250,25-05-2025,1,250,No,3,No,0,May,No,250,Gen X
+C0611,23,Male,Bangalore,Retail,Email,Long Island,Single,250,02-06-2025,1,250,Yes,4,Yes,0,Jun,No,250,Gen Z
+C0612,30,Female,Ahmedabad,Online,Social Media,Cosmopolitan,Single,250,14-01-2025,1,250,No,5,Yes,25,Jan,Yes,250,Millennial
+C0613,24,Male,Kolkata,Retail,Social Media,Mojito,4-Pack,350,04-06-2025,4,1400,No,4,Yes,14,Jun,No,350,Gen Z
+C0614,34,Female,Ahmedabad,Online,Email,Gin Fizz,Single,250,07-01-2025,1,250,Yes,4,No,0,Jan,No,250,Millennial
+C0615,22,Female,Bangalore,Online,Email,Margarita,4-Pack,350,03-06-2025,4,1400,No,4,Yes,30,Jun,No,350,Gen Z
+C0616,27,Male,Mumbai,Online,Social Media,Cosmopolitan,4-Pack,350,28-06-2025,4,1400,No,4,Yes,19,Jun,No,350,Millennial
+C0617,25,Male,Mumbai,Online,Email,Gin Fizz,Single,250,14-02-2025,1,250,No,5,Yes,17,Feb,No,250,Gen Z
+C0618,22,Female,Hyderabad,Retail,Social Media,Margarita,4-Pack,350,26-04-2025,4,1400,No,4,Yes,19,Apr,Yes,350,Gen Z
+C0619,43,Male,Kolkata,Online,Email,Whisky Sour,12-Pack,400,12-02-2025,12,4800,Yes,4,No,0,Feb,No,400,Gen X
+C0620,40,Male,Mumbai,Online,None,Gin Fizz,Single,250,26-05-2025,1,250,No,3,No,0,May,No,250,Gen X
+C0621,30,Male,Ahmedabad,Online,Social Media,Whisky Sour,12-Pack,400,31-05-2025,12,4800,Yes,4,Yes,0,May,No,400,Millennial
+C0622,36,Male,Ahmedabad,Online,Email,Rum Punch,12-Pack,400,20-03-2025,12,4800,No,3,Yes,0,Mar,No,400,Gen X
+C0623,26,Male,Pune,Online,None,Cosmopolitan,12-Pack,400,21-03-2025,12,4800,No,4,No,0,Mar,No,400,Millennial
+C0624,39,Female,Hyderabad,Online,Social Media,Long Island,4-Pack,350,10-01-2025,4,1400,No,5,Yes,7,Jan,No,350,Gen X
+C0625,26,Male,Bangalore,Retail,Social Media,Gin Fizz,12-Pack,400,02-06-2025,12,4800,No,3,No,0,Jun,No,400,Millennial
+C0626,31,Female,Pune,Online,Social Media,Margarita,Single,250,03-06-2025,1,250,No,5,Yes,11,Jun,No,250,Millennial
+C0627,26,Female,Mumbai,Retail,Email,Long Island,Single,250,10-03-2025,1,250,No,3,No,0,Mar,Yes,250,Millennial
+C0628,30,Male,Mumbai,Retail,None,Long Island,4-Pack,350,16-03-2025,4,1400,Yes,3,No,0,Mar,No,350,Millennial
+C0629,36,Male,Kolkata,Online,Email,Gin Fizz,12-Pack,400,27-03-2025,24,9600,No,4,Yes,28,Mar,No,400,Gen X
+C0630,26,Male,Mumbai,Retail,None,Gin Fizz,Single,250,15-04-2025,1,250,No,3,Yes,0,Apr,No,250,Millennial
+C0631,44,Female,Kolkata,Online,None,Cosmopolitan,4-Pack,350,06-04-2025,4,1400,No,3,No,0,Apr,No,350,Gen X
+C0632,36,Male,Delhi,Retail,Social Media,Mojito,4-Pack,350,02-01-2025,8,2800,No,3,No,0,Jan,Yes,350,Gen X
+C0633,34,Female,Ahmedabad,Retail,Email,Long Island,Single,250,28-02-2025,1,250,No,5,Yes,23,Feb,No,250,Millennial
+C0634,28,Male,Delhi,Retail,Email,Cosmopolitan,Single,250,11-02-2025,1,250,No,3,Yes,15,Feb,No,250,Millennial
+C0635,43,Male,Delhi,Retail,Social Media,Long Island,Single,250,30-05-2025,1,250,No,4,No,0,May,No,250,Gen X
+C0636,38,Male,Bangalore,Retail,Social Media,Gin Fizz,4-Pack,350,23-01-2025,8,2800,Yes,4,Yes,7,Jan,Yes,350,Gen X
+C0637,29,Female,Ahmedabad,Online,Email,Gin Fizz,Single,250,27-05-2025,1,250,Yes,4,No,0,May,Yes,250,Millennial
+C0638,30,Male,Mumbai,Retail,Email,Cosmopolitan,12-Pack,400,19-01-2025,12,4800,No,4,Yes,8,Jan,No,400,Millennial
+C0639,39,Male,Mumbai,Retail,None,Mojito,Single,250,19-04-2025,1,250,Yes,5,No,0,Apr,Yes,250,Gen X
+C0640,27,Female,Delhi,Online,None,Gin Fizz,Single,250,20-01-2025,1,250,No,3,No,0,Jan,No,250,Millennial
+C0641,27,Male,Pune,Online,Email,Margarita,4-Pack,350,22-02-2025,4,1400,No,4,Yes,0,Feb,Yes,350,Millennial
+C0642,36,Male,Pune,Online,Email,Mojito,Single,250,10-04-2025,1,250,Yes,4,Yes,0,Apr,Yes,250,Gen X
+C0643,24,Female,Pune,Online,Social Media,Long Island,Single,250,18-05-2025,1,250,No,4,Yes,18,May,Yes,250,Gen Z
+C0644,42,Male,Mumbai,Online,Social Media,Gin Fizz,4-Pack,350,09-02-2025,4,1400,No,4,Yes,0,Feb,No,350,Gen X
+C0645,21,Male,Hyderabad,Retail,Email,Long Island,Single,250,29-12-2024,1,250,No,3,No,0,Dec,No,250,Gen Z
+C0646,36,Male,Chennai,Online,Social Media,Gin Fizz,Single,250,01-02-2025,1,250,Yes,4,Yes,16,Feb,Yes,250,Gen X
+C0647,33,Male,Ahmedabad,Online,Email,Whisky Sour,4-Pack,350,05-01-2025,8,2800,Yes,3,Yes,0,Jan,No,350,Millennial
+C0648,35,Female,Bangalore,Online,Email,Mojito,Single,250,09-03-2025,1,250,No,4,No,0,Mar,No,250,Millennial
+C0649,30,Female,Pune,Online,Social Media,Cosmopolitan,12-Pack,400,19-06-2025,12,4800,No,5,Yes,10,Jun,No,400,Millennial
+C0650,40,Male,Pune,Retail,Email,Margarita,4-Pack,350,23-06-2025,4,1400,No,5,Yes,0,Jun,Yes,350,Gen X
+C0651,23,Female,Pune,Online,Social Media,Gin Fizz,Single,250,16-01-2025,1,250,No,4,Yes,25,Jan,No,250,Gen Z
+C0652,23,Male,Pune,Retail,Social Media,Gin Fizz,Single,250,31-03-2025,1,250,Yes,3,No,0,Mar,No,250,Gen Z
+C0653,38,Female,Hyderabad,Online,Social Media,Gin Fizz,Single,250,20-04-2025,1,250,No,5,Yes,8,Apr,No,250,Gen X
+C0654,26,Male,Ahmedabad,Online,Social Media,Whisky Sour,Single,250,07-05-2025,1,250,No,5,Yes,0,May,No,250,Millennial
+C0655,24,Female,Delhi,Retail,Email,Cosmopolitan,4-Pack,350,03-04-2025,4,1400,Yes,3,No,0,Apr,Yes,350,Gen Z
+C0656,38,Male,Ahmedabad,Online,Social Media,Margarita,4-Pack,350,22-06-2025,8,2800,No,3,No,0,Jun,No,350,Gen X
+C0657,31,Male,Hyderabad,Retail,Social Media,Mojito,Single,250,24-06-2025,1,250,Yes,4,Yes,0,Jun,No,250,Millennial
+C0658,29,Female,Hyderabad,Online,None,Margarita,Single,250,10-05-2025,1,250,No,4,Yes,14,May,No,250,Millennial
+C0659,41,Male,Mumbai,Retail,Social Media,Cosmopolitan,Single,250,04-03-2025,1,250,No,4,Yes,0,Mar,Yes,250,Gen X
+C0660,36,Female,Delhi,Retail,Email,Margarita,4-Pack,350,19-01-2025,4,1400,Yes,5,No,0,Jan,Yes,350,Gen X
+C0661,38,Female,Ahmedabad,Online,Social Media,Mojito,Single,250,07-01-2025,1,250,No,4,No,0,Jan,Yes,250,Gen X
+C0662,26,Female,Chennai,Online,None,Rum Punch,4-Pack,350,24-02-2025,8,2800,No,3,No,0,Feb,No,350,Millennial
+C0663,30,Male,Bangalore,Retail,Social Media,Long Island,Single,250,06-03-2025,1,250,No,5,No,0,Mar,No,250,Millennial
+C0664,26,Male,Kolkata,Online,Social Media,Long Island,12-Pack,400,27-01-2025,12,4800,No,5,Yes,0,Jan,No,400,Millennial
+C0665,23,Male,Delhi,Online,Email,Whisky Sour,4-Pack,350,11-01-2025,4,1400,No,5,Yes,8,Jan,Yes,350,Gen Z
+C0666,36,Female,Pune,Online,Email,Margarita,12-Pack,400,07-05-2025,12,4800,No,4,Yes,16,May,Yes,400,Gen X
+C0667,30,Male,Kolkata,Online,Email,Whisky Sour,Single,250,17-04-2025,1,250,Yes,5,No,0,Apr,No,250,Millennial
+C0668,23,Male,Ahmedabad,Retail,Email,Rum Punch,Single,250,07-06-2025,1,250,Yes,4,No,0,Jun,No,250,Gen Z
+C0669,41,Female,Delhi,Retail,Social Media,Rum Punch,12-Pack,400,11-02-2025,12,4800,No,4,No,0,Feb,No,400,Gen X
+C0670,28,Female,Kolkata,Online,Social Media,Long Island,12-Pack,400,11-06-2025,12,4800,No,5,Yes,27,Jun,Yes,400,Millennial
+C0671,37,Male,Delhi,Online,None,Gin Fizz,Single,250,01-01-2025,1,250,No,5,Yes,17,Jan,Yes,250,Gen X
+C0672,28,Female,Hyderabad,Online,None,Cosmopolitan,4-Pack,350,04-06-2025,4,1400,Yes,4,Yes,0,Jun,No,350,Millennial
+C0673,22,Female,Ahmedabad,Retail,Social Media,Gin Fizz,Single,250,25-05-2025,1,250,No,4,No,0,May,Yes,250,Gen Z
+C0674,36,Male,Mumbai,Online,None,Margarita,4-Pack,350,10-05-2025,4,1400,No,4,No,0,May,No,350,Gen X
+C0675,41,Male,Pune,Retail,Social Media,Gin Fizz,4-Pack,350,05-01-2025,8,2800,No,4,No,0,Jan,Yes,350,Gen X
+C0676,33,Female,Ahmedabad,Retail,None,Rum Punch,Single,250,28-04-2025,1,250,Yes,4,No,0,Apr,Yes,250,Millennial
+C0677,38,Female,Chennai,Online,Email,Margarita,12-Pack,400,12-02-2025,24,9600,No,3,Yes,22,Feb,No,400,Gen X
+C0678,38,Male,Mumbai,Online,None,Gin Fizz,4-Pack,350,04-03-2025,4,1400,No,3,No,0,Mar,No,350,Gen X
+C0679,34,Male,Mumbai,Online,Social Media,Long Island,Single,250,21-02-2025,1,250,No,4,Yes,0,Feb,No,250,Millennial
+C0680,27,Female,Bangalore,Online,None,Whisky Sour,Single,250,30-01-2025,1,250,Yes,4,Yes,28,Jan,No,250,Millennial
+C0681,26,Female,Mumbai,Retail,Social Media,Mojito,Single,250,13-04-2025,1,250,Yes,4,No,0,Apr,Yes,250,Millennial
+C0682,37,Male,Delhi,Online,Social Media,Rum Punch,4-Pack,350,02-02-2025,4,1400,No,4,No,0,Feb,Yes,350,Gen X
+C0683,37,Male,Ahmedabad,Online,Social Media,Whisky Sour,Single,250,21-06-2025,1,250,No,3,No,0,Jun,Yes,250,Gen X
+C0684,40,Male,Chennai,Retail,Social Media,Whisky Sour,4-Pack,350,24-06-2025,4,1400,No,3,No,0,Jun,Yes,350,Gen X
+C0685,42,Male,Delhi,Online,None,Rum Punch,4-Pack,350,25-03-2025,4,1400,Yes,4,Yes,0,Mar,Yes,350,Gen X
+C0686,44,Female,Ahmedabad,Retail,None,Rum Punch,Single,250,15-03-2025,1,250,No,4,Yes,0,Mar,No,250,Gen X
+C0687,28,Female,Kolkata,Online,Email,Cosmopolitan,Single,250,23-02-2025,1,250,Yes,3,No,0,Feb,No,250,Millennial
+C0688,36,Male,Bangalore,Retail,Email,Whisky Sour,Single,250,08-06-2025,1,250,No,4,Yes,24,Jun,Yes,250,Gen X
+C0689,22,Female,Kolkata,Retail,Email,Long Island,4-Pack,350,21-05-2025,4,1400,No,4,Yes,8,May,No,350,Gen Z
+C0690,31,Female,Bangalore,Retail,Social Media,Long Island,4-Pack,350,01-05-2025,4,1400,No,5,Yes,18,May,Yes,350,Millennial
+C0691,34,Male,Mumbai,Online,Email,Mojito,Single,250,24-06-2025,1,250,No,5,No,0,Jun,No,250,Millennial
+C0692,40,Male,Delhi,Online,Social Media,Margarita,Single,250,22-03-2025,1,250,Yes,4,Yes,25,Mar,Yes,250,Gen X
+C0693,38,Male,Mumbai,Online,Email,Cosmopolitan,Single,250,10-06-2025,1,250,No,4,Yes,0,Jun,Yes,250,Gen X
+C0694,33,Male,Mumbai,Online,Email,Cosmopolitan,4-Pack,350,16-02-2025,4,1400,Yes,4,Yes,0,Feb,Yes,350,Millennial
+C0695,26,Female,Pune,Online,Social Media,Gin Fizz,Single,250,11-06-2025,1,250,Yes,5,Yes,0,Jun,Yes,250,Millennial
+C0696,38,Female,Hyderabad,Retail,Social Media,Gin Fizz,Single,250,23-03-2025,1,250,No,4,No,0,Mar,No,250,Gen X
+C0697,23,Female,Chennai,Retail,None,Margarita,4-Pack,350,05-04-2025,4,1400,No,4,No,0,Apr,No,350,Gen Z
+C0698,24,Female,Ahmedabad,Online,Email,Whisky Sour,12-Pack,400,29-04-2025,12,4800,No,4,Yes,8,Apr,No,400,Gen Z
+C0699,27,Male,Kolkata,Online,Social Media,Margarita,4-Pack,350,27-01-2025,4,1400,No,5,Yes,0,Jan,No,350,Millennial
+C0700,23,Male,Kolkata,Online,Social Media,Gin Fizz,12-Pack,400,22-04-2025,12,4800,No,4,Yes,29,Apr,Yes,400,Gen Z
+C0701,22,Female,Chennai,Online,Email,Rum Punch,4-Pack,350,04-05-2025,4,1400,Yes,5,No,0,May,Yes,350,Gen Z
+C0702,39,Male,Delhi,Retail,Social Media,Rum Punch,Single,250,29-12-2024,1,250,Yes,4,Yes,27,Dec,No,250,Gen X
+C0703,21,Female,Bangalore,Retail,Social Media,Rum Punch,4-Pack,350,30-05-2025,4,1400,No,5,Yes,12,May,Yes,350,Gen Z
+C0704,32,Female,Mumbai,Retail,Social Media,Long Island,12-Pack,400,03-01-2025,12,4800,No,4,No,0,Jan,Yes,400,Millennial
+C0705,21,Male,Pune,Retail,Social Media,Rum Punch,12-Pack,400,05-02-2025,12,4800,No,5,Yes,0,Feb,No,400,Gen Z
+C0706,28,Male,Mumbai,Retail,Social Media,Mojito,Single,250,15-02-2025,1,250,No,5,Yes,0,Feb,No,250,Millennial
+C0707,43,Female,Delhi,Retail,Social Media,Long Island,Single,250,23-01-2025,1,250,No,3,No,0,Jan,Yes,250,Gen X
+C0708,28,Male,Chennai,Online,Social Media,Margarita,Single,250,08-04-2025,1,250,No,5,Yes,0,Apr,No,250,Millennial
+C0709,36,Male,Kolkata,Online,Social Media,Margarita,Single,250,23-05-2025,1,250,No,4,Yes,0,May,No,250,Gen X
+C0710,33,Male,Hyderabad,Online,Social Media,Rum Punch,Single,250,25-03-2025,1,250,Yes,5,Yes,0,Mar,Yes,250,Millennial
+C0711,37,Male,Hyderabad,Retail,Social Media,Rum Punch,Single,250,26-04-2025,1,250,No,3,Yes,0,Apr,No,250,Gen X
+C0712,32,Female,Delhi,Online,Email,Rum Punch,4-Pack,350,25-01-2025,4,1400,No,3,Yes,0,Jan,No,350,Millennial
+C0713,27,Female,Delhi,Online,Social Media,Rum Punch,4-Pack,350,28-03-2025,8,2800,No,4,Yes,19,Mar,No,350,Millennial
+C0714,24,Male,Delhi,Retail,None,Cosmopolitan,4-Pack,350,07-03-2025,4,1400,Yes,5,No,0,Mar,No,350,Gen Z
+C0715,21,Male,Ahmedabad,Retail,Email,Gin Fizz,Single,250,03-02-2025,1,250,No,5,Yes,19,Feb,No,250,Gen Z
+C0716,25,Male,Hyderabad,Retail,None,Cosmopolitan,4-Pack,350,29-12-2024,4,1400,Yes,4,Yes,0,Dec,No,350,Gen Z
+C0717,33,Male,Hyderabad,Online,None,Rum Punch,4-Pack,350,29-01-2025,4,1400,No,4,Yes,0,Jan,No,350,Millennial
+C0718,36,Female,Hyderabad,Online,None,Margarita,4-Pack,350,11-01-2025,4,1400,No,4,No,0,Jan,No,350,Gen X
+C0719,44,Female,Bangalore,Online,Social Media,Margarita,4-Pack,350,02-03-2025,8,2800,Yes,4,No,0,Mar,Yes,350,Gen X
+C0720,29,Female,Kolkata,Online,None,Long Island,4-Pack,350,25-04-2025,4,1400,No,4,No,0,Apr,Yes,350,Millennial
+C0721,22,Male,Kolkata,Online,Social Media,Margarita,Single,250,18-01-2025,1,250,No,5,Yes,0,Jan,No,250,Gen Z
+C0722,30,Female,Ahmedabad,Retail,Email,Whisky Sour,4-Pack,350,24-01-2025,4,1400,No,3,Yes,0,Jan,Yes,350,Millennial
+C0723,28,Male,Mumbai,Retail,Social Media,Rum Punch,4-Pack,350,06-06-2025,4,1400,No,4,Yes,0,Jun,No,350,Millennial
+C0724,27,Male,Delhi,Online,Social Media,Mojito,4-Pack,350,28-05-2025,4,1400,Yes,5,Yes,0,May,No,350,Millennial
+C0725,32,Female,Kolkata,Retail,None,Mojito,4-Pack,350,27-03-2025,4,1400,No,4,Yes,0,Mar,No,350,Millennial
+C0726,30,Female,Delhi,Online,Email,Margarita,4-Pack,350,31-03-2025,4,1400,No,4,Yes,18,Mar,No,350,Millennial
+C0727,23,Female,Pune,Online,Email,Whisky Sour,Single,250,06-05-2025,1,250,Yes,4,No,0,May,Yes,250,Gen Z
+C0728,27,Male,Mumbai,Online,Social Media,Whisky Sour,Single,250,07-03-2025,1,250,No,4,Yes,27,Mar,No,250,Millennial
+C0729,43,Female,Ahmedabad,Online,Social Media,Long Island,4-Pack,350,13-03-2025,4,1400,Yes,4,Yes,18,Mar,No,350,Gen X
+C0730,24,Male,Bangalore,Online,Social Media,Long Island,Single,250,12-04-2025,1,250,No,4,No,0,Apr,Yes,250,Gen Z
+C0731,31,Male,Pune,Online,Social Media,Gin Fizz,12-Pack,400,19-06-2025,12,4800,No,3,Yes,17,Jun,No,400,Millennial
+C0732,36,Male,Mumbai,Retail,None,Margarita,4-Pack,350,04-06-2025,4,1400,Yes,4,No,0,Jun,Yes,350,Gen X
+C0733,31,Male,Pune,Retail,Social Media,Rum Punch,Single,250,14-03-2025,1,250,Yes,4,No,0,Mar,No,250,Millennial
+C0734,39,Female,Mumbai,Retail,None,Gin Fizz,4-Pack,350,08-02-2025,4,1400,No,5,No,0,Feb,No,350,Gen X
+C0735,26,Male,Mumbai,Online,Social Media,Long Island,Single,250,03-04-2025,1,250,No,4,Yes,24,Apr,No,250,Millennial
+C0736,37,Female,Hyderabad,Online,Email,Cosmopolitan,12-Pack,400,19-02-2025,12,4800,Yes,3,No,0,Feb,Yes,400,Gen X
+C0737,24,Male,Ahmedabad,Retail,Social Media,Margarita,4-Pack,350,23-03-2025,4,1400,No,4,Yes,0,Mar,No,350,Gen Z
+C0738,34,Male,Hyderabad,Retail,None,Long Island,Single,250,10-06-2025,1,250,No,4,No,0,Jun,No,250,Millennial
+C0739,35,Female,Mumbai,Retail,Email,Whisky Sour,4-Pack,350,22-03-2025,4,1400,No,4,Yes,0,Mar,No,350,Millennial
+C0740,39,Female,Mumbai,Retail,Email,Mojito,Single,250,09-06-2025,1,250,Yes,4,No,0,Jun,No,250,Gen X
+C0741,37,Male,Delhi,Online,None,Rum Punch,Single,250,13-02-2025,1,250,No,4,Yes,0,Feb,No,250,Gen X
+C0742,31,Female,Hyderabad,Online,Social Media,Whisky Sour,4-Pack,350,31-05-2025,4,1400,No,4,No,0,May,No,350,Millennial
+C0743,35,Female,Hyderabad,Online,Email,Mojito,Single,250,06-06-2025,1,250,No,4,Yes,0,Jun,Yes,250,Millennial
+C0744,26,Male,Chennai,Retail,Email,Mojito,4-Pack,350,25-06-2025,4,1400,Yes,4,Yes,0,Jun,No,350,Millennial
+C0745,43,Male,Kolkata,Online,Social Media,Cosmopolitan,4-Pack,350,03-05-2025,4,1400,No,4,Yes,17,May,Yes,350,Gen X
+C0746,30,Female,Pune,Online,None,Margarita,4-Pack,350,26-04-2025,4,1400,No,4,Yes,0,Apr,No,350,Millennial
+C0747,27,Male,Bangalore,Online,Social Media,Whisky Sour,Single,250,12-04-2025,1,250,No,4,Yes,26,Apr,No,250,Millennial
+C0748,44,Female,Bangalore,Online,None,Rum Punch,Single,250,26-03-2025,1,250,No,4,No,0,Mar,No,250,Gen X
+C0749,31,Male,Pune,Online,Social Media,Gin Fizz,12-Pack,400,22-02-2025,12,4800,Yes,4,Yes,20,Feb,Yes,400,Millennial
+C0750,39,Female,Chennai,Online,Email,Whisky Sour,4-Pack,350,15-03-2025,4,1400,Yes,4,Yes,16,Mar,No,350,Gen X
+C0751,32,Female,Bangalore,Retail,None,Long Island,4-Pack,350,01-02-2025,4,1400,No,4,No,0,Feb,Yes,350,Millennial
+C0752,44,Female,Mumbai,Retail,Social Media,Whisky Sour,Single,250,30-04-2025,1,250,No,5,No,0,Apr,No,250,Gen X
+C0753,24,Female,Bangalore,Online,Social Media,Rum Punch,4-Pack,350,14-06-2025,4,1400,Yes,3,Yes,12,Jun,No,350,Gen Z
+C0754,35,Male,Ahmedabad,Online,Social Media,Cosmopolitan,4-Pack,350,19-03-2025,4,1400,No,4,Yes,0,Mar,Yes,350,Millennial
+C0755,21,Female,Hyderabad,Retail,Social Media,Cosmopolitan,Single,250,28-01-2025,1,250,Yes,4,Yes,0,Jan,No,250,Gen Z
+C0756,33,Male,Bangalore,Online,Social Media,Margarita,12-Pack,400,08-01-2025,12,4800,Yes,4,No,0,Jan,No,400,Millennial
+C0757,21,Female,Hyderabad,Retail,Social Media,Cosmopolitan,4-Pack,350,18-03-2025,8,2800,No,3,No,0,Mar,No,350,Gen Z
+C0758,44,Male,Bangalore,Online,Social Media,Whisky Sour,12-Pack,400,09-01-2025,12,4800,No,4,Yes,0,Jan,Yes,400,Gen X
+C0759,22,Male,Hyderabad,Retail,None,Cosmopolitan,12-Pack,400,08-04-2025,12,4800,No,4,Yes,0,Apr,Yes,400,Gen Z
+C0760,32,Male,Delhi,Online,Social Media,Long Island,4-Pack,350,17-04-2025,4,1400,No,3,No,0,Apr,No,350,Millennial
+C0761,21,Male,Pune,Online,Social Media,Mojito,4-Pack,350,04-05-2025,4,1400,No,5,Yes,13,May,Yes,350,Gen Z
+C0762,40,Male,Delhi,Online,Social Media,Margarita,4-Pack,350,30-05-2025,4,1400,No,4,Yes,0,May,Yes,350,Gen X
+C0763,31,Male,Hyderabad,Retail,Social Media,Mojito,4-Pack,350,25-05-2025,4,1400,No,5,No,0,May,No,350,Millennial
+C0764,38,Female,Mumbai,Retail,Social Media,Whisky Sour,Single,250,22-02-2025,1,250,No,4,Yes,0,Feb,No,250,Gen X
+C0765,23,Female,Ahmedabad,Retail,Social Media,Margarita,4-Pack,350,12-01-2025,8,2800,No,4,No,0,Jan,Yes,350,Gen Z
+C0766,30,Male,Pune,Online,None,Margarita,Single,250,20-04-2025,1,250,No,4,Yes,0,Apr,Yes,250,Millennial
+C0767,39,Female,Hyderabad,Online,Email,Gin Fizz,Single,250,03-01-2025,1,250,No,5,Yes,0,Jan,Yes,250,Gen X
+C0768,29,Female,Bangalore,Online,None,Long Island,Single,250,19-02-2025,1,250,No,4,No,0,Feb,No,250,Millennial
+C0769,27,Female,Mumbai,Retail,Email,Rum Punch,Single,250,08-03-2025,1,250,Yes,4,Yes,14,Mar,No,250,Millennial
+C0770,44,Male,Bangalore,Retail,None,Rum Punch,Single,250,02-05-2025,1,250,No,4,Yes,0,May,No,250,Gen X
+C0771,33,Male,Chennai,Online,Social Media,Margarita,4-Pack,350,03-04-2025,4,1400,No,4,Yes,0,Apr,No,350,Millennial
+C0772,25,Male,Chennai,Retail,Social Media,Cosmopolitan,Single,250,31-03-2025,1,250,No,5,No,0,Mar,Yes,250,Gen Z
+C0773,33,Female,Delhi,Retail,Social Media,Gin Fizz,4-Pack,350,12-04-2025,4,1400,No,5,No,0,Apr,No,350,Millennial
+C0774,28,Male,Pune,Online,Social Media,Rum Punch,4-Pack,350,02-04-2025,4,1400,Yes,3,No,0,Apr,Yes,350,Millennial
+C0775,42,Female,Pune,Online,None,Margarita,12-Pack,400,03-04-2025,12,4800,No,5,Yes,9,Apr,Yes,400,Gen X
+C0776,31,Male,Kolkata,Retail,Email,Long Island,4-Pack,350,04-03-2025,4,1400,No,5,Yes,0,Mar,No,350,Millennial
+C0777,31,Female,Delhi,Online,Social Media,Gin Fizz,4-Pack,350,16-03-2025,4,1400,No,4,Yes,0,Mar,No,350,Millennial
+C0778,33,Male,Ahmedabad,Online,Email,Rum Punch,Single,250,23-05-2025,1,250,No,4,Yes,20,May,Yes,250,Millennial
+C0779,35,Female,Pune,Online,Email,Mojito,Single,250,23-04-2025,1,250,Yes,5,Yes,8,Apr,No,250,Millennial
+C0780,28,Female,Mumbai,Online,Social Media,Margarita,12-Pack,400,19-01-2025,12,4800,No,4,Yes,23,Jan,Yes,400,Millennial
+C0781,32,Female,Kolkata,Retail,Social Media,Cosmopolitan,Single,250,22-01-2025,1,250,No,4,No,0,Jan,No,250,Millennial
+C0782,40,Female,Delhi,Online,Email,Whisky Sour,4-Pack,350,26-06-2025,4,1400,Yes,3,No,0,Jun,Yes,350,Gen X
+C0783,44,Female,Delhi,Online,Social Media,Mojito,4-Pack,350,04-06-2025,8,2800,No,5,Yes,29,Jun,No,350,Gen X
+C0784,36,Male,Pune,Online,None,Whisky Sour,12-Pack,400,22-05-2025,12,4800,No,3,No,0,May,No,400,Gen X
+C0785,38,Male,Bangalore,Retail,Social Media,Long Island,4-Pack,350,11-05-2025,4,1400,Yes,5,No,0,May,Yes,350,Gen X
+C0786,35,Male,Kolkata,Online,Social Media,Long Island,Single,250,04-01-2025,1,250,Yes,4,No,0,Jan,Yes,250,Millennial
+C0787,22,Male,Kolkata,Retail,Social Media,Whisky Sour,Single,250,31-03-2025,1,250,No,3,No,0,Mar,Yes,250,Gen Z
+C0788,24,Male,Bangalore,Retail,None,Mojito,4-Pack,350,17-01-2025,4,1400,No,3,No,0,Jan,Yes,350,Gen Z
+C0789,24,Female,Bangalore,Online,None,Mojito,Single,250,05-06-2025,1,250,No,4,No,0,Jun,No,250,Gen Z
+C0790,32,Male,Bangalore,Online,None,Long Island,Single,250,09-05-2025,1,250,No,4,Yes,0,May,Yes,250,Millennial
+C0791,23,Female,Pune,Retail,Social Media,Whisky Sour,Single,250,28-06-2025,1,250,No,5,Yes,9,Jun,No,250,Gen Z
+C0792,42,Male,Delhi,Online,None,Rum Punch,4-Pack,350,26-03-2025,4,1400,No,4,Yes,0,Mar,No,350,Gen X
+C0793,44,Female,Hyderabad,Online,Social Media,Gin Fizz,Single,250,25-04-2025,1,250,Yes,5,Yes,0,Apr,Yes,250,Gen X
+C0794,34,Male,Bangalore,Online,Email,Gin Fizz,Single,250,02-04-2025,1,250,No,4,Yes,23,Apr,Yes,250,Millennial
+C0795,40,Male,Chennai,Online,Social Media,Gin Fizz,4-Pack,350,03-02-2025,4,1400,No,4,Yes,15,Feb,Yes,350,Gen X
+C0796,40,Male,Hyderabad,Retail,Social Media,Long Island,Single,250,21-04-2025,1,250,Yes,4,No,0,Apr,No,250,Gen X
+C0797,27,Female,Pune,Retail,Social Media,Cosmopolitan,Single,250,14-01-2025,1,250,No,4,Yes,0,Jan,No,250,Millennial
+C0798,30,Male,Delhi,Retail,Social Media,Rum Punch,4-Pack,350,12-05-2025,8,2800,No,3,No,0,May,No,350,Millennial
+C0799,24,Male,Ahmedabad,Online,Social Media,Whisky Sour,4-Pack,350,14-02-2025,4,1400,No,4,No,0,Feb,No,350,Gen Z
+C0800,21,Male,Hyderabad,Online,Social Media,Whisky Sour,Single,250,22-01-2025,1,250,No,4,Yes,0,Jan,Yes,250,Gen Z
+C0801,42,Male,Bangalore,Retail,None,Long Island,4-Pack,350,08-01-2025,4,1400,Yes,5,Yes,0,Jan,No,350,Gen X
+C0802,23,Female,Chennai,Retail,None,Cosmopolitan,4-Pack,350,21-01-2025,4,1400,Yes,4,Yes,0,Jan,No,350,Gen Z
+C0803,35,Female,Ahmedabad,Retail,Email,Rum Punch,4-Pack,350,18-06-2025,4,1400,No,5,Yes,29,Jun,No,350,Millennial
+C0804,41,Male,Hyderabad,Retail,Social Media,Cosmopolitan,Single,250,14-05-2025,1,250,Yes,4,No,0,May,Yes,250,Gen X
+C0805,39,Male,Ahmedabad,Online,None,Gin Fizz,4-Pack,350,08-06-2025,4,1400,No,4,No,0,Jun,Yes,350,Gen X
+C0806,24,Male,Ahmedabad,Online,None,Gin Fizz,4-Pack,350,24-06-2025,4,1400,No,4,Yes,0,Jun,No,350,Gen Z
+C0807,36,Female,Kolkata,Retail,Email,Margarita,Single,250,15-02-2025,1,250,No,5,No,0,Feb,Yes,250,Gen X
+C0808,27,Male,Chennai,Online,Social Media,Margarita,12-Pack,400,28-12-2024,12,4800,Yes,4,Yes,0,Dec,No,400,Millennial
+C0809,43,Male,Kolkata,Online,Email,Gin Fizz,Single,250,19-01-2025,1,250,No,4,No,0,Jan,No,250,Gen X
+C0810,35,Male,Delhi,Retail,Social Media,Rum Punch,Single,250,18-05-2025,1,250,Yes,5,No,0,May,No,250,Millennial
+C0811,24,Female,Chennai,Online,Social Media,Cosmopolitan,4-Pack,350,21-04-2025,4,1400,No,4,No,0,Apr,Yes,350,Gen Z
+C0812,23,Male,Delhi,Retail,Social Media,Gin Fizz,4-Pack,350,20-02-2025,8,2800,No,3,No,0,Feb,No,350,Gen Z
+C0813,25,Female,Delhi,Online,Email,Gin Fizz,12-Pack,400,01-02-2025,12,4800,No,5,No,0,Feb,Yes,400,Gen Z
+C0814,42,Female,Hyderabad,Retail,Social Media,Mojito,Single,250,29-01-2025,1,250,No,5,No,0,Jan,No,250,Gen X
+C0815,31,Female,Ahmedabad,Online,Email,Margarita,Single,250,13-03-2025,1,250,No,3,Yes,0,Mar,No,250,Millennial
+C0816,35,Male,Kolkata,Retail,Social Media,Long Island,Single,250,19-05-2025,1,250,Yes,3,Yes,0,May,No,250,Millennial
+C0817,33,Female,Pune,Retail,Email,Mojito,4-Pack,350,29-01-2025,4,1400,Yes,4,Yes,0,Jan,Yes,350,Millennial
+C0818,35,Male,Chennai,Online,Social Media,Long Island,12-Pack,400,18-06-2025,12,4800,Yes,4,Yes,9,Jun,No,400,Millennial
+C0819,31,Female,Chennai,Online,Email,Gin Fizz,Single,250,17-01-2025,1,250,No,4,No,0,Jan,Yes,250,Millennial
+C0820,40,Female,Kolkata,Online,Email,Mojito,4-Pack,350,15-02-2025,4,1400,Yes,4,No,0,Feb,Yes,350,Gen X
+C0821,40,Male,Delhi,Online,None,Long Island,Single,250,12-03-2025,1,250,No,4,No,0,Mar,Yes,250,Gen X
+C0822,37,Female,Kolkata,Retail,Social Media,Mojito,Single,250,15-05-2025,1,250,No,5,No,0,May,Yes,250,Gen X
+C0823,32,Female,Pune,Online,Social Media,Rum Punch,12-Pack,400,23-04-2025,24,9600,No,4,Yes,0,Apr,Yes,400,Millennial
+C0824,43,Female,Bangalore,Retail,Social Media,Whisky Sour,4-Pack,350,24-04-2025,4,1400,Yes,4,Yes,9,Apr,No,350,Gen X
+C0825,41,Male,Pune,Retail,None,Long Island,Single,250,04-05-2025,1,250,Yes,4,Yes,10,May,No,250,Gen X
+C0826,33,Female,Ahmedabad,Retail,Email,Whisky Sour,Single,250,26-03-2025,1,250,Yes,4,Yes,8,Mar,No,250,Millennial
+C0827,41,Female,Pune,Online,Email,Whisky Sour,Single,250,06-06-2025,1,250,No,4,No,0,Jun,Yes,250,Gen X
+C0828,30,Male,Delhi,Online,Social Media,Rum Punch,Single,250,16-05-2025,1,250,No,4,No,0,May,No,250,Millennial
+C0829,42,Female,Pune,Online,None,Whisky Sour,4-Pack,350,30-04-2025,4,1400,Yes,3,No,0,Apr,Yes,350,Gen X
+C0830,27,Female,Kolkata,Retail,Social Media,Gin Fizz,12-Pack,400,20-04-2025,12,4800,Yes,3,Yes,12,Apr,Yes,400,Millennial
+C0831,38,Female,Hyderabad,Retail,Social Media,Mojito,4-Pack,350,27-06-2025,4,1400,No,4,Yes,30,Jun,Yes,350,Gen X
+C0832,27,Male,Pune,Online,Social Media,Cosmopolitan,Single,250,01-03-2025,1,250,No,4,Yes,26,Mar,Yes,250,Millennial
+C0833,32,Female,Ahmedabad,Online,Email,Mojito,4-Pack,350,02-03-2025,4,1400,No,3,No,0,Mar,No,350,Millennial
+C0834,32,Male,Chennai,Online,Email,Mojito,4-Pack,350,17-06-2025,4,1400,No,3,Yes,18,Jun,No,350,Millennial
+C0835,25,Male,Mumbai,Retail,Social Media,Mojito,Single,250,13-06-2025,1,250,No,5,Yes,24,Jun,No,250,Gen Z
+C0836,36,Male,Delhi,Retail,Email,Gin Fizz,Single,250,15-04-2025,1,250,No,3,No,0,Apr,No,250,Gen X
+C0837,23,Male,Hyderabad,Retail,Social Media,Margarita,Single,250,23-02-2025,1,250,Yes,5,No,0,Feb,Yes,250,Gen Z
+C0838,34,Male,Chennai,Online,Social Media,Margarita,12-Pack,400,31-05-2025,12,4800,No,4,No,0,May,No,400,Millennial
+C0839,26,Female,Hyderabad,Retail,Social Media,Rum Punch,Single,250,07-03-2025,1,250,Yes,3,No,0,Mar,No,250,Millennial
+C0840,40,Female,Kolkata,Retail,Social Media,Gin Fizz,12-Pack,400,14-06-2025,12,4800,Yes,3,No,0,Jun,No,400,Gen X
+C0841,33,Male,Mumbai,Retail,Social Media,Long Island,12-Pack,400,09-05-2025,12,4800,No,3,No,0,May,Yes,400,Millennial
+C0842,38,Male,Ahmedabad,Online,Email,Long Island,4-Pack,350,23-06-2025,8,2800,No,4,Yes,11,Jun,Yes,350,Gen X
+C0843,26,Male,Ahmedabad,Online,None,Whisky Sour,4-Pack,350,02-03-2025,4,1400,No,5,No,0,Mar,No,350,Millennial
+C0844,43,Female,Bangalore,Retail,Email,Long Island,4-Pack,350,15-04-2025,4,1400,No,5,No,0,Apr,Yes,350,Gen X
+C0845,29,Female,Bangalore,Retail,None,Gin Fizz,12-Pack,400,02-05-2025,12,4800,No,4,No,0,May,No,400,Millennial
+C0846,36,Female,Bangalore,Online,Social Media,Mojito,Single,250,19-04-2025,1,250,No,5,No,0,Apr,No,250,Gen X
+C0847,40,Male,Kolkata,Retail,None,Mojito,Single,250,14-02-2025,1,250,No,5,Yes,0,Feb,No,250,Gen X
+C0848,37,Female,Hyderabad,Retail,Social Media,Whisky Sour,12-Pack,400,28-06-2025,12,4800,No,4,No,0,Jun,No,400,Gen X
+C0849,25,Male,Delhi,Online,Social Media,Gin Fizz,4-Pack,350,09-05-2025,4,1400,No,5,No,0,May,Yes,350,Gen Z
+C0850,21,Female,Bangalore,Online,Social Media,Margarita,Single,250,24-02-2025,1,250,No,4,No,0,Feb,Yes,250,Gen Z
+C0851,40,Female,Kolkata,Online,Social Media,Rum Punch,4-Pack,350,13-02-2025,4,1400,Yes,4,No,0,Feb,No,350,Gen X
+C0852,40,Female,Mumbai,Retail,Social Media,Cosmopolitan,4-Pack,350,17-02-2025,4,1400,No,4,Yes,0,Feb,No,350,Gen X
+C0853,21,Female,Ahmedabad,Online,Social Media,Margarita,12-Pack,400,20-05-2025,12,4800,No,3,No,0,May,Yes,400,Gen Z
+C0854,23,Male,Pune,Online,Email,Mojito,Single,250,11-04-2025,1,250,Yes,5,Yes,0,Apr,No,250,Gen Z
+C0855,27,Female,Pune,Online,Email,Margarita,Single,250,14-01-2025,1,250,Yes,4,Yes,0,Jan,Yes,250,Millennial
+C0856,40,Female,Mumbai,Retail,Social Media,Cosmopolitan,12-Pack,400,10-01-2025,24,9600,Yes,4,Yes,9,Jan,Yes,400,Gen X
+C0857,42,Female,Bangalore,Retail,None,Gin Fizz,4-Pack,350,25-03-2025,8,2800,No,4,No,0,Mar,Yes,350,Gen X
+C0858,23,Female,Kolkata,Retail,None,Whisky Sour,12-Pack,400,13-01-2025,12,4800,Yes,4,No,0,Jan,No,400,Gen Z
+C0859,29,Male,Bangalore,Online,Social Media,Long Island,Single,250,22-06-2025,1,250,No,4,Yes,0,Jun,No,250,Millennial
+C0860,44,Female,Kolkata,Online,None,Rum Punch,4-Pack,350,21-02-2025,4,1400,No,3,Yes,15,Feb,No,350,Gen X
+C0861,43,Male,Delhi,Retail,Email,Rum Punch,4-Pack,350,15-04-2025,4,1400,Yes,4,No,0,Apr,No,350,Gen X
+C0862,35,Male,Kolkata,Retail,Social Media,Margarita,Single,250,16-03-2025,1,250,No,5,Yes,16,Mar,No,250,Millennial
+C0863,25,Female,Kolkata,Online,Social Media,Rum Punch,12-Pack,400,07-05-2025,12,4800,No,4,Yes,0,May,No,400,Gen Z
+C0864,37,Female,Mumbai,Retail,Email,Margarita,4-Pack,350,16-04-2025,4,1400,Yes,5,Yes,7,Apr,No,350,Gen X
+C0865,33,Male,Mumbai,Retail,Social Media,Whisky Sour,Single,250,23-03-2025,1,250,No,5,No,0,Mar,Yes,250,Millennial
+C0866,24,Female,Ahmedabad,Retail,Social Media,Gin Fizz,Single,250,13-01-2025,1,250,No,3,Yes,0,Jan,No,250,Gen Z
+C0867,34,Male,Mumbai,Online,Social Media,Rum Punch,12-Pack,400,14-06-2025,12,4800,No,4,No,0,Jun,No,400,Millennial
+C0868,39,Female,Mumbai,Online,Social Media,Cosmopolitan,4-Pack,350,31-05-2025,8,2800,Yes,4,No,0,May,No,350,Gen X
+C0869,28,Male,Kolkata,Online,None,Margarita,Single,250,13-04-2025,1,250,Yes,5,Yes,0,Apr,No,250,Millennial
+C0870,44,Female,Kolkata,Retail,Social Media,Rum Punch,4-Pack,350,28-05-2025,4,1400,No,4,Yes,18,May,Yes,350,Gen X
+C0871,21,Male,Delhi,Online,Social Media,Margarita,12-Pack,400,23-03-2025,24,9600,No,4,No,0,Mar,No,400,Gen Z
+C0872,38,Male,Hyderabad,Retail,Social Media,Margarita,4-Pack,350,14-03-2025,4,1400,No,5,No,0,Mar,No,350,Gen X
+C0873,42,Male,Delhi,Online,Social Media,Whisky Sour,4-Pack,350,13-01-2025,4,1400,No,4,Yes,9,Jan,No,350,Gen X
+C0874,25,Male,Kolkata,Retail,None,Long Island,4-Pack,350,04-03-2025,4,1400,Yes,5,Yes,14,Mar,No,350,Gen Z
+C0875,39,Male,Bangalore,Retail,Email,Rum Punch,4-Pack,350,18-06-2025,4,1400,Yes,5,No,0,Jun,No,350,Gen X
+C0876,29,Female,Pune,Online,None,Mojito,Single,250,05-03-2025,1,250,Yes,4,Yes,30,Mar,No,250,Millennial
+C0877,33,Female,Pune,Online,Social Media,Margarita,12-Pack,400,10-06-2025,12,4800,No,5,Yes,13,Jun,No,400,Millennial
+C0878,38,Female,Ahmedabad,Online,Social Media,Whisky Sour,4-Pack,350,10-04-2025,4,1400,No,5,Yes,24,Apr,No,350,Gen X
+C0879,27,Male,Ahmedabad,Retail,Social Media,Rum Punch,12-Pack,400,04-01-2025,24,9600,Yes,4,Yes,0,Jan,No,400,Millennial
+C0880,42,Male,Mumbai,Retail,Social Media,Long Island,4-Pack,350,07-04-2025,4,1400,No,4,No,0,Apr,No,350,Gen X
+C0881,33,Female,Bangalore,Online,Social Media,Rum Punch,12-Pack,400,09-04-2025,12,4800,No,4,Yes,10,Apr,Yes,400,Millennial
+C0882,29,Female,Chennai,Online,None,Cosmopolitan,4-Pack,350,08-04-2025,4,1400,No,4,No,0,Apr,No,350,Millennial
+C0883,43,Male,Bangalore,Online,Social Media,Gin Fizz,Single,250,12-06-2025,1,250,No,4,No,0,Jun,Yes,250,Gen X
+C0884,38,Female,Bangalore,Retail,Social Media,Long Island,4-Pack,350,29-05-2025,4,1400,No,4,No,0,May,No,350,Gen X
+C0885,38,Male,Delhi,Online,Social Media,Cosmopolitan,Single,250,16-02-2025,1,250,No,5,Yes,0,Feb,No,250,Gen X
+C0886,33,Male,Mumbai,Retail,Social Media,Mojito,Single,250,01-04-2025,1,250,Yes,4,Yes,15,Apr,No,250,Millennial
+C0887,40,Male,Mumbai,Retail,Social Media,Long Island,12-Pack,400,24-04-2025,24,9600,No,4,Yes,7,Apr,No,400,Gen X
+C0888,43,Male,Bangalore,Retail,Social Media,Gin Fizz,12-Pack,400,10-02-2025,12,4800,No,4,Yes,0,Feb,No,400,Gen X
+C0889,23,Female,Chennai,Online,Email,Margarita,4-Pack,350,28-04-2025,4,1400,No,4,No,0,Apr,Yes,350,Gen Z
+C0890,27,Female,Kolkata,Retail,Social Media,Rum Punch,Single,250,12-06-2025,1,250,No,4,No,0,Jun,No,250,Millennial
+C0891,35,Female,Hyderabad,Online,Social Media,Long Island,4-Pack,350,20-01-2025,4,1400,No,3,No,0,Jan,Yes,350,Millennial
+C0892,33,Female,Bangalore,Online,Social Media,Rum Punch,4-Pack,350,08-01-2025,4,1400,No,5,Yes,0,Jan,Yes,350,Millennial
+C0893,32,Female,Delhi,Retail,None,Gin Fizz,Single,250,26-04-2025,1,250,No,3,No,0,Apr,Yes,250,Millennial
+C0894,23,Female,Bangalore,Retail,None,Mojito,12-Pack,400,13-01-2025,24,9600,Yes,5,Yes,0,Jan,No,400,Gen Z
+C0895,32,Female,Chennai,Online,Social Media,Mojito,Single,250,20-05-2025,1,250,No,5,No,0,May,No,250,Millennial
+C0896,23,Female,Delhi,Retail,Email,Long Island,Single,250,09-05-2025,1,250,No,5,No,0,May,No,250,Gen Z
+C0897,25,Female,Mumbai,Online,Email,Margarita,Single,250,08-03-2025,1,250,No,5,No,0,Mar,No,250,Gen Z
+C0898,42,Female,Pune,Retail,Social Media,Long Island,4-Pack,350,30-12-2024,8,2800,No,4,No,0,Dec,No,350,Gen X
+C0899,39,Male,Chennai,Online,None,Rum Punch,Single,250,23-04-2025,1,250,No,4,Yes,30,Apr,No,250,Gen X
+C0900,40,Male,Kolkata,Retail,Social Media,Mojito,4-Pack,350,03-02-2025,4,1400,No,4,No,0,Feb,Yes,350,Gen X
+C0901,42,Male,Bangalore,Online,Social Media,Long Island,12-Pack,400,06-04-2025,12,4800,No,4,Yes,0,Apr,No,400,Gen X
+C0902,40,Female,Bangalore,Retail,Social Media,Cosmopolitan,Single,250,07-05-2025,1,250,No,5,Yes,0,May,Yes,250,Gen X
+C0903,41,Male,Chennai,Online,Social Media,Mojito,12-Pack,400,21-01-2025,12,4800,No,5,Yes,0,Jan,No,400,Gen X
+C0904,21,Female,Bangalore,Online,Email,Gin Fizz,Single,250,06-06-2025,1,250,No,3,Yes,18,Jun,No,250,Gen Z
+C0905,21,Female,Ahmedabad,Online,Social Media,Whisky Sour,4-Pack,350,05-02-2025,4,1400,No,3,No,0,Feb,Yes,350,Gen Z
+C0906,41,Male,Pune,Retail,Social Media,Gin Fizz,4-Pack,350,14-01-2025,4,1400,No,4,Yes,8,Jan,No,350,Gen X
+C0907,43,Male,Ahmedabad,Online,Email,Gin Fizz,4-Pack,350,14-03-2025,4,1400,No,5,Yes,0,Mar,Yes,350,Gen X
+C0908,36,Female,Bangalore,Online,Email,Mojito,4-Pack,350,21-03-2025,8,2800,Yes,4,Yes,0,Mar,No,350,Gen X
+C0909,31,Male,Kolkata,Online,None,Whisky Sour,4-Pack,350,11-01-2025,4,1400,Yes,4,No,0,Jan,No,350,Millennial
+C0910,28,Male,Pune,Retail,None,Mojito,12-Pack,400,04-03-2025,12,4800,Yes,4,No,0,Mar,Yes,400,Millennial
+C0911,42,Male,Kolkata,Retail,Email,Margarita,4-Pack,350,08-04-2025,4,1400,No,4,Yes,0,Apr,No,350,Gen X
+C0912,41,Male,Delhi,Online,Email,Long Island,Single,250,27-01-2025,1,250,Yes,3,No,0,Jan,No,250,Gen X
+C0913,39,Female,Mumbai,Online,Email,Cosmopolitan,4-Pack,350,09-01-2025,4,1400,No,3,No,0,Jan,No,350,Gen X
+C0914,42,Female,Delhi,Online,None,Rum Punch,4-Pack,350,24-02-2025,4,1400,Yes,4,No,0,Feb,Yes,350,Gen X
+C0915,44,Female,Ahmedabad,Retail,Social Media,Long Island,Single,250,04-01-2025,1,250,No,3,No,0,Jan,Yes,250,Gen X
+C0916,39,Male,Ahmedabad,Online,Email,Whisky Sour,Single,250,17-05-2025,1,250,No,5,No,0,May,Yes,250,Gen X
+C0917,37,Female,Delhi,Online,Social Media,Whisky Sour,Single,250,16-01-2025,1,250,Yes,4,Yes,0,Jan,No,250,Gen X
+C0918,28,Female,Kolkata,Online,Email,Mojito,12-Pack,400,12-05-2025,24,9600,Yes,3,Yes,21,May,Yes,400,Millennial
+C0919,31,Male,Hyderabad,Online,None,Whisky Sour,Single,250,20-05-2025,1,250,Yes,4,No,0,May,No,250,Millennial
+C0920,30,Male,Bangalore,Online,Social Media,Mojito,4-Pack,350,11-05-2025,4,1400,Yes,4,No,0,May,No,350,Millennial
+C0921,44,Male,Ahmedabad,Online,Email,Rum Punch,Single,250,09-04-2025,1,250,No,3,No,0,Apr,No,250,Gen X
+C0922,37,Male,Chennai,Online,Social Media,Rum Punch,Single,250,27-06-2025,1,250,Yes,3,No,0,Jun,Yes,250,Gen X
+C0923,32,Male,Mumbai,Online,Email,Long Island,4-Pack,350,01-06-2025,4,1400,Yes,5,No,0,Jun,Yes,350,Millennial
+C0924,27,Female,Chennai,Online,Social Media,Rum Punch,Single,250,03-04-2025,1,250,No,5,No,0,Apr,No,250,Millennial
+C0925,40,Male,Hyderabad,Online,Social Media,Whisky Sour,4-Pack,350,27-04-2025,4,1400,Yes,4,No,0,Apr,No,350,Gen X
+C0926,24,Female,Delhi,Online,Social Media,Gin Fizz,Single,250,14-02-2025,1,250,No,5,Yes,21,Feb,Yes,250,Gen Z
+C0927,25,Female,Ahmedabad,Online,None,Cosmopolitan,4-Pack,350,25-03-2025,8,2800,No,3,No,0,Mar,No,350,Gen Z
+C0928,36,Female,Bangalore,Online,None,Rum Punch,4-Pack,350,20-05-2025,4,1400,Yes,3,No,0,May,Yes,350,Gen X
+C0929,32,Female,Delhi,Online,Email,Long Island,4-Pack,350,23-02-2025,4,1400,No,3,No,0,Feb,No,350,Millennial
+C0930,30,Female,Pune,Retail,Email,Long Island,Single,250,23-03-2025,1,250,Yes,3,No,0,Mar,Yes,250,Millennial
+C0931,44,Female,Mumbai,Retail,None,Whisky Sour,Single,250,20-02-2025,1,250,No,5,Yes,16,Feb,No,250,Gen X
+C0932,41,Female,Bangalore,Retail,Email,Gin Fizz,Single,250,06-05-2025,1,250,Yes,5,No,0,May,No,250,Gen X
+C0933,28,Male,Delhi,Retail,Social Media,Rum Punch,Single,250,20-02-2025,1,250,No,4,Yes,0,Feb,No,250,Millennial
+C0934,42,Male,Delhi,Online,Social Media,Gin Fizz,4-Pack,350,31-01-2025,4,1400,No,4,Yes,24,Jan,Yes,350,Gen X
+C0935,43,Female,Mumbai,Online,Social Media,Mojito,Single,250,01-01-2025,1,250,Yes,3,Yes,0,Jan,No,250,Gen X
+C0936,25,Female,Ahmedabad,Online,None,Cosmopolitan,Single,250,01-03-2025,1,250,No,5,Yes,12,Mar,No,250,Gen Z
+C0937,33,Male,Bangalore,Online,Social Media,Whisky Sour,Single,250,11-04-2025,1,250,Yes,4,No,0,Apr,No,250,Millennial
+C0938,36,Male,Delhi,Online,Social Media,Margarita,4-Pack,350,26-02-2025,8,2800,No,5,Yes,0,Feb,No,350,Gen X
+C0939,34,Female,Kolkata,Retail,None,Rum Punch,4-Pack,350,20-06-2025,4,1400,No,4,No,0,Jun,No,350,Millennial
+C0940,44,Female,Ahmedabad,Online,Social Media,Gin Fizz,4-Pack,350,01-06-2025,4,1400,No,4,No,0,Jun,No,350,Gen X
+C0941,42,Male,Delhi,Online,Social Media,Mojito,4-Pack,350,10-03-2025,4,1400,No,4,Yes,17,Mar,No,350,Gen X
+C0942,27,Male,Kolkata,Online,Email,Long Island,Single,250,07-04-2025,1,250,No,5,Yes,0,Apr,No,250,Millennial
+C0943,33,Male,Hyderabad,Online,Social Media,Cosmopolitan,4-Pack,350,07-04-2025,4,1400,No,5,No,0,Apr,No,350,Millennial
+C0944,26,Female,Ahmedabad,Online,Social Media,Margarita,12-Pack,400,17-05-2025,12,4800,Yes,5,No,0,May,Yes,400,Millennial
+C0945,40,Male,Chennai,Retail,Social Media,Margarita,Single,250,29-12-2024,1,250,Yes,4,Yes,18,Dec,No,250,Gen X
+C0946,40,Female,Kolkata,Retail,Social Media,Mojito,Single,250,29-05-2025,1,250,No,4,Yes,0,May,Yes,250,Gen X
+C0947,24,Male,Kolkata,Online,Email,Mojito,Single,250,09-03-2025,1,250,No,3,No,0,Mar,Yes,250,Gen Z
+C0948,28,Female,Ahmedabad,Online,Social Media,Rum Punch,Single,250,28-03-2025,1,250,Yes,5,No,0,Mar,Yes,250,Millennial
+C0949,41,Male,Kolkata,Online,Email,Margarita,Single,250,23-05-2025,1,250,No,4,No,0,May,Yes,250,Gen X
+C0950,21,Male,Hyderabad,Retail,Email,Whisky Sour,Single,250,22-01-2025,1,250,No,4,No,0,Jan,Yes,250,Gen Z
+C0951,23,Male,Mumbai,Retail,Social Media,Rum Punch,4-Pack,350,13-03-2025,4,1400,No,4,No,0,Mar,No,350,Gen Z
+C0952,41,Male,Ahmedabad,Online,Email,Mojito,Single,250,27-04-2025,1,250,Yes,4,Yes,0,Apr,Yes,250,Gen X
+C0953,28,Female,Ahmedabad,Retail,Email,Mojito,4-Pack,350,14-03-2025,4,1400,Yes,4,Yes,0,Mar,No,350,Millennial
+C0954,33,Female,Pune,Online,Social Media,Margarita,4-Pack,350,13-05-2025,4,1400,No,3,No,0,May,No,350,Millennial
+C0955,41,Male,Kolkata,Retail,Social Media,Cosmopolitan,12-Pack,400,20-03-2025,24,9600,No,3,No,0,Mar,No,400,Gen X
+C0956,35,Female,Bangalore,Retail,None,Long Island,4-Pack,350,15-06-2025,4,1400,No,3,No,0,Jun,No,350,Millennial
+C0957,37,Female,Chennai,Online,Email,Cosmopolitan,4-Pack,350,09-06-2025,4,1400,Yes,4,No,0,Jun,No,350,Gen X
+C0958,40,Male,Hyderabad,Online,Social Media,Mojito,4-Pack,350,13-04-2025,4,1400,No,3,No,0,Apr,No,350,Gen X
+C0959,24,Male,Delhi,Online,Email,Long Island,12-Pack,400,09-05-2025,12,4800,No,4,Yes,16,May,Yes,400,Gen Z
+C0960,34,Female,Hyderabad,Retail,Social Media,Whisky Sour,12-Pack,400,21-05-2025,12,4800,No,5,No,0,May,Yes,400,Millennial
+C0961,26,Female,Ahmedabad,Retail,None,Cosmopolitan,12-Pack,400,31-05-2025,12,4800,No,5,Yes,23,May,Yes,400,Millennial
+C0962,30,Female,Ahmedabad,Retail,Social Media,Margarita,4-Pack,350,28-05-2025,4,1400,No,3,No,0,May,No,350,Millennial
+C0963,44,Female,Kolkata,Retail,Social Media,Margarita,Single,250,17-02-2025,1,250,No,4,Yes,22,Feb,Yes,250,Gen X
+C0964,24,Female,Delhi,Online,Social Media,Margarita,12-Pack,400,27-04-2025,12,4800,Yes,4,Yes,24,Apr,Yes,400,Gen Z
+C0965,24,Female,Ahmedabad,Online,Social Media,Rum Punch,4-Pack,350,12-02-2025,8,2800,No,4,No,0,Feb,No,350,Gen Z
+C0966,23,Male,Bangalore,Retail,Email,Cosmopolitan,4-Pack,350,21-03-2025,4,1400,No,3,No,0,Mar,No,350,Gen Z
+C0967,35,Male,Kolkata,Online,Email,Whisky Sour,12-Pack,400,22-06-2025,12,4800,No,4,No,0,Jun,Yes,400,Millennial
+C0968,30,Male,Bangalore,Retail,Social Media,Rum Punch,12-Pack,400,17-03-2025,24,9600,Yes,4,No,0,Mar,No,400,Millennial
+C0969,35,Female,Bangalore,Retail,Social Media,Margarita,12-Pack,400,03-05-2025,12,4800,No,4,No,0,May,No,400,Millennial
+C0970,27,Male,Mumbai,Online,Social Media,Mojito,Single,250,10-05-2025,1,250,No,4,No,0,May,No,250,Millennial
+C0971,23,Male,Chennai,Retail,Email,Long Island,12-Pack,400,20-02-2025,12,4800,No,4,Yes,15,Feb,No,400,Gen Z
+C0972,44,Female,Pune,Online,Social Media,Margarita,4-Pack,350,07-05-2025,4,1400,Yes,4,Yes,0,May,Yes,350,Gen X
+C0973,24,Male,Chennai,Online,Social Media,Mojito,Single,250,06-04-2025,1,250,No,4,Yes,0,Apr,No,250,Gen Z
+C0974,34,Male,Chennai,Online,Email,Rum Punch,Single,250,05-04-2025,1,250,Yes,5,No,0,Apr,Yes,250,Millennial
+C0975,24,Male,Hyderabad,Online,Social Media,Gin Fizz,Single,250,07-03-2025,1,250,No,4,Yes,25,Mar,No,250,Gen Z
+C0976,33,Male,Kolkata,Retail,Social Media,Gin Fizz,4-Pack,350,22-03-2025,4,1400,No,4,Yes,11,Mar,Yes,350,Millennial
+C0977,32,Female,Hyderabad,Online,Email,Rum Punch,Single,250,05-01-2025,1,250,Yes,3,No,0,Jan,Yes,250,Millennial
+C0978,28,Female,Chennai,Online,Email,Long Island,12-Pack,400,02-05-2025,12,4800,Yes,4,Yes,11,May,No,400,Millennial
+C0979,35,Female,Kolkata,Retail,Social Media,Long Island,4-Pack,350,26-05-2025,4,1400,No,5,No,0,May,No,350,Millennial
+C0980,27,Male,Pune,Online,Email,Cosmopolitan,12-Pack,400,22-01-2025,12,4800,Yes,5,Yes,0,Jan,No,400,Millennial
+C0981,32,Female,Hyderabad,Retail,Email,Cosmopolitan,Single,250,13-01-2025,1,250,No,4,Yes,0,Jan,No,250,Millennial
+C0982,40,Male,Kolkata,Online,None,Rum Punch,Single,250,10-01-2025,1,250,Yes,3,No,0,Jan,No,250,Gen X
+C0983,43,Female,Ahmedabad,Online,Social Media,Rum Punch,4-Pack,350,28-01-2025,4,1400,No,5,Yes,21,Jan,No,350,Gen X
+C0984,25,Female,Kolkata,Online,Email,Whisky Sour,12-Pack,400,09-05-2025,12,4800,Yes,4,No,0,May,No,400,Gen Z
+C0985,27,Female,Delhi,Online,Email,Rum Punch,4-Pack,350,09-02-2025,8,2800,Yes,5,No,0,Feb,Yes,350,Millennial
+C0986,34,Male,Hyderabad,Online,None,Whisky Sour,12-Pack,400,26-01-2025,12,4800,Yes,4,No,0,Jan,Yes,400,Millennial
+C0987,25,Female,Ahmedabad,Online,Email,Margarita,Single,250,29-12-2024,1,250,Yes,5,Yes,19,Dec,No,250,Gen Z
+C0988,28,Female,Hyderabad,Online,Social Media,Rum Punch,Single,250,05-04-2025,1,250,Yes,4,No,0,Apr,No,250,Millennial
+C0989,40,Male,Pune,Online,Social Media,Margarita,4-Pack,350,12-02-2025,4,1400,Yes,5,Yes,0,Feb,Yes,350,Gen X
+C0990,42,Male,Mumbai,Retail,None,Mojito,4-Pack,350,31-03-2025,4,1400,Yes,3,Yes,22,Mar,No,350,Gen X
+C0991,34,Female,Chennai,Retail,Social Media,Gin Fizz,Single,250,21-05-2025,1,250,No,4,Yes,13,May,No,250,Millennial
+C0992,26,Male,Pune,Online,Social Media,Whisky Sour,12-Pack,400,02-04-2025,12,4800,No,4,Yes,7,Apr,Yes,400,Millennial
+C0993,32,Male,Bangalore,Retail,Social Media,Margarita,4-Pack,350,23-05-2025,4,1400,Yes,4,No,0,May,No,350,Millennial
+C0994,29,Male,Mumbai,Online,None,Mojito,Single,250,16-05-2025,1,250,No,3,No,0,May,No,250,Millennial
+C0995,38,Male,Bangalore,Retail,Email,Rum Punch,Single,250,08-06-2025,1,250,No,4,Yes,0,Jun,No,250,Gen X
+C0996,28,Male,Delhi,Online,Social Media,Mojito,4-Pack,350,16-04-2025,4,1400,No,5,No,0,Apr,No,350,Millennial
+C0997,34,Male,Hyderabad,Retail,None,Margarita,Single,250,08-05-2025,1,250,No,4,No,0,May,No,250,Millennial
+C0998,32,Male,Kolkata,Retail,Social Media,Cosmopolitan,12-Pack,400,15-02-2025,12,4800,Yes,4,Yes,0,Feb,No,400,Millennial
+C0999,30,Male,Kolkata,Retail,None,Gin Fizz,4-Pack,350,16-06-2025,4,1400,Yes,3,No,0,Jun,Yes,350,Millennial
+C1000,24,Female,Bangalore,Online,Social Media,Margarita,12-Pack,400,26-06-2025,12,4800,No,4,Yes,7,Jun,No,400,Gen Z
